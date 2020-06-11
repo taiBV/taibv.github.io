@@ -1,0 +1,1258 @@
+@font-face {
+    font-family: "Paytone One";
+    src: url(/fonts/Paytone_One/PaytoneOne-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url(/fonts/Montserrat/Montserrat-Bold.ttf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url(/fonts/Montserrat/Montserrat-Light.ttf);
+    font-weight: 300;
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url(/fonts/Montserrat/Montserrat-Medium.ttf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url(/fonts/Montserrat/Montserrat-SemiBold.ttf);
+    font-weight: 600;
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url(/fonts/Montserrat/Montserrat-ExtraBold.ttf);
+    font-weight: 800;
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url(/fonts/Montserrat/Montserrat-Black.ttf);
+    font-weight: 900;
+}
+.mt-80{
+    margin-top: 80px;
+}
+.w-1080{
+    max-width: 1080px;
+}
+.btn-pink{
+    border: 5px solid #ff5d91;
+    font-size: 22px;
+    border-radius: 50px;
+    padding: 10px 40px;
+    background-color:#ea2a58 ;
+    font-weight: 700;
+    font-family: "Montserrat";
+}
+.btn-pink-light{
+    background-color:#f23e79 ;
+    box-shadow: 0px 5px #bfbfbf;
+}
+.banner-intro{
+    background-image: url('/images/event/gioithieu/bg header.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.spc-banner{
+    padding-top: 200px;
+    padding-left: 400px;
+}
+.banner-intro .content-banner{
+    width: 40%;
+    padding-bottom: 50px;
+}
+.banner-intro .logo-educa{
+    text-align: center;;
+    padding-bottom: 20px;
+}
+/* banner */
+.banner-intro .content-banner .txt-banner p.title-intro{
+    font-size: 60px;
+    text-shadow: 4px 0 #ef168c, 0 4px #ef168c, 4px 0 #ef168c, 0 4px #ef168c;
+    color: #ffdd21 ;
+    text-transform: uppercase;
+    font-family: "Paytone One";
+    text-align: center;
+}
+.banner-intro .content-banner .txt-banner .sub-title-intro p{
+    font-size: 30px;
+    color: #1126c1 ;
+    font-family: "Paytone One";
+    text-align: center;
+}
+.banner-intro .content-banner .txt-banner .list-intro-banner{
+    width: 85%;
+    margin: auto;
+}
+.banner-intro .content-banner .txt-banner .list-intro-banner p{
+   font-size: 18px;
+   font-family: "Montserrat";
+    display: flex;
+}
+.banner-intro .btn-more{
+    font-size: 22px;
+    background-color:#ffd642 ;
+    border-radius: 50px;
+    font-weight: 700;
+    padding: 10px 40px;
+    font-family: "Montserrat";
+    box-shadow: 0px 5px #bfbfbf;
+    border: 5px solid #ffe742;
+}
+/*  */
+.benefit .title-benefit p{
+    font-family: "Montserrat";
+    font-weight: 800;
+    font-size: 39px;
+    color: #f23e79;
+}
+.benefit .sub-title-benefit p{
+    font-family: "Montserrat";
+    font-weight: 600;
+    padding: 0 20px;
+    font-size: 20px;
+}
+.benefit .list-benefit .list-benefit-item .except-item{
+    color: #000;
+    font-family: "Montserrat";
+}
+.benefit .list-benefit .list-benefit-item .except-item p:first-child{
+    margin-bottom: 0;
+}
+.benefit .list-benefit .list-benefit-item .img-item{
+    padding-bottom: 16px;
+}
+.benefit .button-it{
+    margin: 25px auto 58px 0;
+}
+.benefit .list-benefit-item{
+    padding-right: 60px;
+    padding-bottom: 20px;
+}
+
+ .benefit .carousel .carousel-inner .carousel-item{
+   padding: 0 100px;
+}
+.benefit .carousel .carousel-inner .carousel-excerpt{
+    text-align: center;
+    padding-top: 15px;
+}
+.benefit .carousel .carousel-inner .carousel-excerpt h5{
+    text-align: center;
+    font-size: 28px;
+    font-family: "Montserrat";
+    font-weight: 600;
+}
+.benefit .carousel .carousel-inner .carousel-excerpt p{
+    text-align: center;
+    font-size: 20px;
+    font-family: "Montserrat";
+}
+.benefit .carousel .carousel-indicators{
+    position: relative;
+}
+.benefit .carousel .carousel-indicators li{
+   background-color: gray;
+   width: 20px;
+   border-radius: 30px;
+   border-top: 0;
+   border-bottom: 0;
+   margin: 0 5px;
+   height: 20px;
+} 
+/*  */
+.steps{
+    background-image: url('/images/event/gioithieu/Section 3/bg pea.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 100%;
+}
+.steps .list-steps{
+    /* padding-bottom: 90px; */
+}
+.steps .list-steps .list-steps-item{
+    width: calc(100%/5);
+    padding:0 12px 0 16px;
+    margin-bottom: 70px;
+    text-align: center;
+    font-size: 18px;
+    font-family: "Montserrat";
+}
+.steps .list-steps .list-steps-item .img-step{
+   padding: 0 20px 12px 20px;
+   text-align: center;
+}
+.steps .list-steps .list-steps-item .img-step span{
+    position: absolute;
+    display: block;
+    left: 50%;
+    top: 50%;
+    transform: translate(-44%, -60%);
+    font-weight: 900;
+    font-family: "Montserrat";
+    color: #ffe615;
+    font-size: 24px;
+}
+.steps .list-steps .list-steps-item .img-step span.pl-span{
+    transform: translate(-46%, -60%);
+}
+.steps .title-steps{
+    font-family: "Paytone One";
+    font-size: 39px;
+    color: #ea2a58;
+    text-align: center;
+    padding: 60px 65px 55px 65px;
+    margin: auto;
+    width: 85%;
+}
+/* process */
+.bg-white{
+    background-color: #fff;
+}
+.w-1080{
+    max-width: 1090px;
+}
+.process{
+    background-image: url('/images/event/gioithieu/Section 4/bg khinh khi cau.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    margin-top: -26px;
+}
+.title-process{
+    width: 68%;
+    margin: auto;
+    font-family: "Paytone One";
+    font-size: 39px;
+    color: #ea2a58;
+    text-align: center;
+    padding:60px 60px 50px 60px;
+}
+.process .list-process{
+    display: flex;
+    justify-content: space-between;
+}
+.process .list-process:last-child{
+    width: 75%;
+    margin: auto;
+}
+.process .list-process .list-process-item p{
+   text-align: center;
+   font-size: 18px;
+   color: #000 ;
+   font-weight: 400;
+   font-family: "Montserrat";
+   padding-top: 12px;
+}
+.process .list-process .list-process-item{
+   max-width: 156px;
+}
+.process .bottom-process .title-process{
+    width: 85%;
+    padding: 60px  0 40px 0;
+}
+.process .bottom-process .list-video-demo .list-video-item{
+    padding:20px ;
+}
+.process .bottom-process .list-video-demo .list-video-item p{
+   font-size: 18px;
+   font-family: "Montserrat";
+   color: black;
+   text-align: left;
+   margin: 10px 0 0 0;
+}
+.process .bottom-process .list-video-demo .list-video-item .video{
+    width: 100%;
+}
+.process .bottom-process .list-video-demo .list-video-item .video img{
+    border-radius: 25px;
+}
+.process .bottom-process .list-video-demo .list-video-item .video video{
+    width: 100%;
+}
+/*  */
+
+.title-maxim{
+    width: 85%;
+    margin: auto;
+    font-family: "Montserrat";
+    font-weight: 800;
+    font-size: 39px;
+    color: #ea2a58;
+    text-align: center;
+    padding:60px 60px 40px 60px
+}
+.maxim .button-it{
+    margin-bottom: 60px ;
+    margin: 70px auto 60px
+}
+.maxim .list-maxim p{
+    font-family: "Montserrat";
+    font-size: 18px;
+    margin-bottom: 8px;
+    display: flex;
+    letter-spacing: 1px;
+}
+/*  */
+.testimonials{
+    margin: 20px 0;
+}
+.testimonials .ct-testimonial{
+    margin-bottom: 35px;
+}
+.testimonials p{
+    font-size: 24px;
+    font-family: "Montserrat";
+    font-weight: 700;
+    color: #0b48b7;
+    padding:50px;
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+/*  */
+/* statistical */
+.statistical{
+    background-image: url('/images/event/gioithieu/Section 6/BG 200k.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.title-statistical{
+    margin: auto;
+    font-family: "Paytone One";
+    font-size: 39px;
+    color: #ea2a58;
+    text-align: center;
+    width: 95%;
+    padding: 60px 0 40px 0;
+}
+.statistical .main-statis{
+    padding-bottom: 65px;
+}
+.statistical .main-statis .ps-vietnam span{
+    position: absolute;
+    bottom: 14%;
+    left: 51%;
+    transform: translate(-50%,50%);
+    color: white;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+}
+.statistical .ps-vietnam{
+    padding: 0 50px 0 50px;
+}
+.effective{
+    background-color: white;
+    background-image: url('/images/event/gioithieu/Section 7/icon hieu qua gap 5 lan.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 100%;
+    width: 82%;
+    margin: auto;
+}
+.title-effective{
+    margin: auto ;
+    font-family: "Paytone One";
+    font-size: 39px;
+    color: #ea2a58;
+    text-align: center;
+    width: 83%;
+    padding: 60px 0 40px 0;
+}
+.effective .list-effective .list-effective-item{
+    padding: 20px ;
+}
+
+.effective .list-effective .list-effective-item p.first{
+    font-weight: 600 ;
+    font-family: "Montserrat";
+    font-size: 18px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-23%, 54%);
+}
+.effective .list-effective .list-effective-item p.first-large{
+    transform: translate(-23%, 26%);
+    width: 200px;
+}
+.effective .list-effective .list-effective-item p.second{
+    font-weight: 300 ;
+    display: flex;
+    font-family: "Montserrat";
+    font-size: 18px;
+    position: absolute;
+    top: 0;
+    left: 29%;
+    transform: translate(-23%, 138%);
+}
+.effective .list-effective .list-effective-item p.sc-large{
+    transform: translate(-23%, 104%) !important;
+}
+.effective .list-effective .list-effective-item p.sc-large:first-child{
+    transform: translate(-23%, 104%);
+}
+.effective .list-effective .list-effective-item p.second:last-child{
+   width: 306px;
+    transform: translate(-23%, 138%);
+}
+/*  */
+.time-remain{
+    background-image: url('/images/event/gioithieu/Section 8/bg form uu dai.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size:cover;
+}
+.time-remain .title-time{
+    width: 80%;
+    margin: auto ;
+    font-family: "Paytone One";
+    font-size: 39px;
+    color: #ea2a58;
+    text-align: center;
+    padding:60px 60px 40px 60px;
+}
+.time-remain .clock .clock-number .item-box{
+    width: calc(100%/11);
+    background-color: #fff;
+     border-radius: 7px;
+     text-align: center;
+     -webkit-box-shadow: 1px -1px 8px 1px rgba(0,0,0,0.44);
+    -moz-box-shadow: 1px -1px 8px 1px rgba(0,0,0,0.44);
+    box-shadow: 1px -1px 8px 1px rgba(0,0,0,0.44);
+}
+.time-remain .clock .clock-number .item-box span{
+    font-size: 64px;
+    text-shadow: 0px 0 blue, 0 0px blue, 0px 0 blue, 0 0px blue;
+    color:#16e5f7;
+    font-weight: 800;
+    text-align: center;
+    font-family: "Montserrat";
+}
+.time-remain .clock .clock-number .list-item{
+    flex-wrap: nowrap;
+
+}
+.time-remain .img-banner{
+    padding-bottom: 40px;
+}
+.time-remain .img-banner p{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-51%,-50%);
+    font-family: "Montserrat";
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+.bg-unset{
+    background-color: unset !important;
+    box-shadow: unset !important;
+}
+.time-remain .clock .tll-clock{
+    padding-bottom: 16px;
+    font-family: "Montserrat";
+    font-size: 20px;
+}
+.w-65{
+    width: 65%;
+}
+.time-remain .clock .clock-unit{
+    padding-top: 10px;
+}
+.time-remain .clock .clock-unit .unit-item{
+    font-size: 16px;
+    font-family: "Montserrat";
+    font-weight: 500;
+}
+.time-remain form button.btn-secondary{
+    background-color: white;
+    color: gray;
+    text-align: left;
+    border-color: #cacaca;
+    width: 100%;
+    position: relative;
+}
+.time-remain .form-regis{
+    width: 84%;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+.time-remain form p{
+   font-size: 16px;
+   font-family: "Montserrat";
+   margin-bottom: 10px;
+}
+.time-remain .item-ip{
+  padding: 0 30px 0 30px;
+ }
+.dropdown-toggle::after {
+    float: right;
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+.time-remain  .suathoc p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 18px;
+    font-family: "Montserrat";
+}
+/*  */
+.commnunity {
+
+}
+.community .title-cmnt{
+        font-family: "Paytone One";
+        font-size: 39px;
+        color: #ea2a58;
+        text-align: center;
+        padding: 60px 0 55px 0;
+        margin: auto;
+        width: 100%
+}
+.main-cmnt{
+    padding-bottom: 70px;
+}
+/*  */
+.rewals .cmt-vtv span{
+    position: absolute;
+    top: 43%;
+    left: 27%;
+    transform: translate(-20%,-50%);
+    color: #000;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: "Montserrat";
+}
+.rewals .box-cmt{
+    position: absolute;
+    top: -19%;
+    left: 0;
+}
+
+.rewals .cmt-rewal span{
+    position: absolute;
+    top: 49%;
+    left: 27%;
+    transform: translate(-20%,-50%);
+    color: #000;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: "Montserrat";
+}
+.rewals .box-rewal{
+    position: absolute;
+    top: -24%;
+    left: 0;
+}
+.rewals .rewal-item{
+    /* border: 1px dashed #f89a23; */
+}
+.list-baochi .img img{
+    width: 100%;
+}
+.list-baochi .img{
+    width: 100%;
+}
+.rewal-item p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Montserrat";
+    padding-top: 20px;
+}
+.bg-testi p{
+    font-size: 25px;
+    color: #007cd0;
+    font-weight: 600;
+    font-family: "Montserrat";
+}
+.bg-testi .txt-may{
+    position: absolute;
+    width: 80%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.statistical .img-slide-testi{
+    width: 60%;
+    margin: auto;
+}
+.statistical .img-slide-testi{
+    width: 60%;
+    margin: auto;
+}
+.statistical #slide-testimonials .carousel-item span{
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    font-size: 25px;
+    font-family: "Montserrat";
+    color: white;
+    transform: translate(-50%, -50%);
+}
+.statistical #slide-testimonials span.img-action{
+    width: 40px;
+    height: 40px;
+}
+
+.footer-ldp{
+    background-image: url('/images/event/gioithieu/Section 10/chan trang.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.footer-ldp .socials .soci-item{
+    padding-right: 16px;
+}
+.footer-ldp .txt-flow,.footer-ldp .email-ft a,.footer-ldp .location-ft span,.footer-ldp .txt-ft-ldp{
+    font-size: 18px;
+    color: white;
+    font-family: "Montserrat";
+    padding-bottom: 15px;
+}
+.footer-ldp .main-footer-ldp{
+    padding: 60px 0 200px 0;
+}
+.footer-ldp .socials{
+    padding-bottom: 23px;
+}
+.footer-ldp .ct-footer-ldp{
+    padding-bottom: 23px;
+}
+.footer-ldp .location-ft{
+    padding-right: 150px;
+}
+.footer-ldp .lgo-ft-ldp{
+    max-width: 197px;
+    max-height: 60px;
+    margin-bottom: 16px;
+}
+.footer-ldp .item-right-ft{
+    padding-left: 70px;
+}
+
+
+.mauticform-button{
+    background: #ea2a58 !important;
+    padding:16px 50px !important
+}
+.mauticform-selectbox, .mauticform-input, .mauticform-textarea {
+    min-height: 50px;
+}
+.mauticform_wrapper{
+    padding-top: 40px;
+}
+.mauticform-page-wrapper {
+    display: flex !important;
+    flex-wrap: wrap;
+}
+
+.mauticform_wrapper {
+    max-width: unset !important;
+    margin: auto !important;
+    width: 100% !important;
+}
+.mauticform-row {
+    padding-right: 50px !important;
+    width: calc(100%/3) !important;
+}
+#mauticform_m063inhouseedupiahocthumienphitestform_submit{
+    margin: auto !important;
+    text-align: center;
+}
+.mauticform-button-wrapper .mauticform-button.btn-default, .mauticform-pagebreak-wrapper .mauticform-pagebreak.btn-default{
+    border: 5px solid #ff5d91 !important;
+    font-size: 20px;
+    border-radius: 50px;
+    padding: 10px 30px !important;
+    background-color: #ea2a58;
+    font-weight: 700;
+    font-family: "Montserrat";
+    margin: 20px auto 20px auto !important;
+    color: white !important;
+}
+.bs-example{
+    margin: 20px;
+}
+.modal-content iframe{
+    margin: auto;
+    display: block;
+}
+.modal-content {
+     background-color: unset !important;
+     border:none !important
+}
+.end-time{
+    font-size: 30px;
+    font-family: "Montserrat";
+    font-weight: 600;
+    color: blue;
+    text-align: center;
+    display: none;
+}
+/* ============================================ Responsive ====================================== */
+/* responsive */
+
+@media (max-width: 1400px) {
+
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 992px) {
+    
+    .banner-intro {
+        background-image: url(/images/event/gioithieu/bg-banner-mobile.png);
+        background-size: 100% 100%;
+    }
+    .banner-intro .content-banner {
+        width: 100%;
+        padding-bottom: 500px;
+        padding-top: 30px;
+    }
+    .spc-banner {
+         padding-top: 0; 
+         padding-left: 0; 
+    }
+    .banner-intro .content-banner .txt-banner p.title-intro {
+        font-size: 55px;
+    }
+    .banner-intro .content-banner .txt-banner .sub-title-intro p {
+        font-size: 25px;
+    }
+    .banner-intro .content-banner .txt-banner .list-intro-banner {
+        width: 67%;
+    }
+    .list-button-banner{
+        text-align: center;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .list-button-banner a:last-child{
+      padding-bottom: 20px;
+    }
+    .list-button-banner a button.btn-free{
+        padding:15px 55px ;
+    }
+    .list-button-banner  button.btn-more{
+        padding: 15px 76px ;
+    }
+    
+    .benefit .title-benefit p {
+        text-align: center;
+        font-size: 35px;
+        padding: 0 20px;
+    }
+    .benefit .sub-title-benefit p {
+       display: none;
+    }
+    .steps {
+        background-image: url('/images/event/gioithieu/Section 3/bg-mobile.png');
+        background-position: bottom;
+    }
+    .steps .title-steps {
+        font-size: 35px;
+        padding: 40px 0 25px 0px;
+    }
+    .steps .list-steps .list-steps-item {
+        margin-bottom: 30px;
+    }
+    .steps .list-steps {
+        padding-bottom: 60px;
+    }
+    .process {
+        background-image: url('/images/event/gioithieu/Section 4/bg-khicau-mobile.png');
+    }
+    .title-process {
+        font-size: 35px;
+        padding: 50px 0 40px 0;
+    }
+    .process .top-process .list-process-mobile .list-process-mobile-item p{
+        font-size: 18px;
+        font-family: "Montserrat";
+        padding-top: 10px;
+    }
+    .process .bottom-process .list-video-demo .list-video-item {
+      padding: 0 80px 30px 80px
+    }
+    .process .list-intro-process p{
+        font-size: 18px;
+        font-family: "Montserrat";
+    }
+    .process .list-intro-process {
+        padding: 0 20px 30px 60px;
+    }
+    .title-maxim {
+        font-size: 35px;
+    }
+    .main-maxim{
+        padding: 0 40px;
+    }
+    .main-maxim .list-maxim{
+        padding-top: 30px;
+    }
+    .statistical {
+        background-image: url('/images/event/gioithieu/Section 6/bg-mobile-may.png');
+    }
+    .img-may {
+        width: 80%;
+        margin: auto;
+        padding-bottom: 30px;
+    }
+    .effective {
+        background-image: unset;
+    }
+    .title-effective {
+        font-size: 35px;
+    }
+    .effective .list-effective-mobile .effective-mobile-item{
+      width: 80%;
+      margin: auto;
+      padding-bottom: 20px;
+    }
+    .effective .list-effective-mobile .effective-mobile-item p{
+        position: absolute;
+        top: 35%;
+        left: 68%;
+        width: 65%;
+        transform: translate(-50%,-50%);
+        color: #000;
+        font-family: "Montserrat";
+        font-weight: 700;
+        font-size: 24px;
+        text-align: left;
+    }
+    .time-remain .title-time {
+        font-size: 35px;
+    }
+    .time-remain {
+        background-image: url('/images/event/gioithieu/Section 8/bg-mobile.png');
+    }
+    .time-remain .main-time .form-regis input, .time-remain .main-time .form-regis .dropdown button{
+        min-height: 50px;
+    }
+    .time-remain form p {
+        font-weight: 600;
+    }
+    .time-remain .main-time .form-regis .dropdown-menu{
+        width: 100%;
+    }
+    .community .title-cmnt {
+        font-size: 35px;
+    }
+    .rewals{
+        width: 75%;
+        margin: auto;
+    }
+    .title-statistical {
+        font-size: 35px;
+    }
+    .footer-ldp .main-footer-ldp{
+        width: 80%;
+        margin:auto
+    }
+    .community .title-cmnt {
+        width: 90%;
+    }
+    .footer-ldp .location-ft {
+        padding-right: 0;
+    }
+    .mauticform_wrapper {
+        width: 75% !important;
+    }
+    .mauticform-row {
+        padding-right: 30px !important;
+        width: calc(100%/3) !important;
+    }
+    .rewals .box-cmt {
+        top: -14%;
+    }
+    .rewals .box-rewal {
+        top: -18%;
+    }
+}
+
+@media (max-width: 768px) {
+    .banner-intro .content-banner .txt-banner p.title-intro {
+        font-size: 50px;
+    }
+    .benefit .title-benefit p {
+        font-size: 33px;
+    }
+    .steps .title-steps {
+        font-size: 33px;
+    }
+    .title-process {
+        font-size: 33px;
+    }
+    .testimonials p {
+        padding: 0;
+    }
+    .title-maxim {
+        padding: 60px 0 40px 0;
+        font-size: 33px;
+    }
+    .title-statistical {
+        font-size: 33px;
+        width: 89%;
+    }
+    .img-may {
+        width: 90%;
+    }
+    .bg-testi p {
+        font-size: 24px;
+    }
+    .statistical #slide-testimonials .carousel-item span.last-ps {
+        bottom: -8%;
+        padding: 0 65px;
+    }
+    .title-effective {
+        font-size: 33px;
+    }
+    .effective {
+        width: 90%;
+    }
+    .time-remain .title-time {
+        font-size: 33px;
+        width: 90%;
+    }
+    .time-remain .clock .clock-number .list-item {
+        width: 80%;
+    }
+    .time-remain .clock .clock-unit {
+        width: 80%;
+    }
+    .time-remain .form-regis {
+        width: 90%;
+    }
+    .community .title-cmnt {
+        width: 92%;
+        font-size: 33px;
+    }
+    .footer-ldp .main-footer-ldp {
+        width: 100%;
+        padding: 40px 0 100px 20px;
+    }
+    .footer-ldp .item-right-ft {
+        padding-left: 20px;
+    }
+    .mauticform_wrapper {
+        width: 90% !important;
+    }
+    .mauticform-page-wrapper {
+        flex-direction: column !important;
+    }
+    .mauticform-row {
+        width: 85% !important;
+        margin: auto;
+    }
+    .rewals .box-cmt {
+        top: -19%;
+    }
+    .rewals .box-rewal {
+        top: -22%;
+    }
+}
+
+@media (max-width: 621px) {
+    .testimonials p {
+        width: 70%;
+    }
+    
+}
+
+@media (max-width: 576px) {
+    .banner-intro .content-banner .txt-banner p.title-intro {
+        font-size: 45px;
+    }
+    .banner-intro .content-banner .txt-banner .sub-title-intro p {
+        font-size: 23px;
+    }
+    .banner-intro .content-banner .txt-banner .list-intro-banner {
+        width: 83%;
+    }
+    .list-button-banner a button.btn-free {
+        padding: 12px 35px;
+    }
+    .list-button-banner button.btn-more {
+        padding: 12px 57px;
+    }
+    .benefit .title-benefit p {
+        font-size: 30px;
+    }
+    .mt-80 {
+        margin-top: 40px;
+    }
+    .benefit .carousel .carousel-inner .carousel-item {
+        padding: 0 40px;
+    }
+    .benefit .carousel .carousel-inner .carousel-excerpt h5 {
+        font-size: 25px;
+    }
+    .steps .title-steps {
+        font-size: 30px;
+    }
+    .steps .list-steps .list-steps-item {
+        margin-bottom: 15px;
+    }
+    .title-process {
+        font-size: 30px;
+    }
+    .process .bottom-process .list-video-demo .list-video-item {
+        padding: 0 55px 30px 55px;
+    }
+    .process .list-intro-process {
+        padding: 0px 20px 30px 40px;
+    }
+    .testimonials p {
+        font-size: 21px;
+    }
+    .title-maxim {
+        width: 87%;
+        padding: 30px 0 40px 0;
+        font-size: 30px;
+    }
+    .main-maxim {
+        padding: 0 30px;
+    }
+    .maxim .button-it {
+        margin: 30px auto 60px;
+    }
+    .maxim .button-it button{
+        padding: 10px 20px !important;
+    }
+    .title-statistical {
+        font-size: 30px;
+    }
+    .img-may {
+        width: 95%;
+    }
+    .bg-testi p {
+        font-size: 22px;
+    }
+    .statistical #slide-testimonials span.img-action {
+        width: 35px;
+        height: 35px;
+    }
+    .statistical .img-slide-testi {
+        width: 65%;
+    }
+    .carousel-control-prev, .carousel-control-next {
+        bottom: 50px !important;
+    }
+    .statistical #slide-testimonials .carousel-item span {
+        bottom: 2%;
+    }
+    .statistical #slide-testimonials .carousel-item span {
+        font-size: 23px;
+    }
+    .statistical #slide-testimonials .carousel-item span.last-ps {
+        bottom: -9%;
+        padding: 0 40px;
+    }
+    .title-effective {
+        font-size: 30px;
+    }
+    .title-effective {
+        width: 90%;
+        font-size: 30px;
+    }
+    .effective {
+        width: 100%;
+    }
+    .effective .list-effective-mobile .effective-mobile-item {
+        width: 90%;
+        margin: auto;
+        padding-bottom: 20px;
+    }
+    .effective .list-effective-mobile .effective-mobile-item p {
+        font-size: 22px;
+    }
+    .time-remain .title-time {
+        font-size: 33px;
+        padding: 40px 0;
+        width: 90%;
+    }
+    .list-effective-mobile{
+        padding-bottom: 30px;
+    }
+    .time-remain .img-banner p {
+        width: 85%;
+    }
+    .time-remain .img-banner p span {
+       font-size: 25px;
+    }
+    .time-remain .clock .clock-number .list-item {
+        width: 95%;
+    }
+    .time-remain .clock .clock-number .item-box span {
+        font-size: 45px;
+    }
+    .time-remain .clock .clock-unit {
+        width: 95%;
+    }
+    .time-remain  .suathoc p {
+        width: 100%;
+    }
+    .rewals {
+        width: 85%;
+    }
+    .community .title-cmnt {
+        font-size: 30px;
+    }
+    .mauticform-row {
+        width: 90% !important;
+    }
+}
+
+@media (max-width: 500px) {
+    .statistical #slide-testimonials .carousel-item span.last-ps {
+        bottom: -13%;
+        padding: 0 24px;
+    }
+    .rewals .box-cmt {
+        top: -22%;
+    }
+    .rewals .box-rewal {
+        top: -29%;
+    }
+}
+@media (max-width: 450px) {
+    .banner-intro {
+        background-size: cover;
+    }
+    .banner-intro .content-banner .txt-banner p.title-intro {
+        font-size: 40px;
+    }
+    .banner-intro .content-banner .txt-banner .sub-title-intro p {
+        font-size: 22px;
+    }
+    .banner-intro .content-banner .txt-banner .list-intro-banner {
+        width: 90%;
+    }
+    .banner-intro .content-banner .txt-banner .list-intro-banner p {
+        letter-spacing: 0.7px;
+    }
+    .list-button-banner a button.btn-free {
+        padding: 12px 30px;
+    }
+    .list-button-banner a button.btn-more {
+        padding: 12px 51px;
+    }
+    .mt-80 {
+        margin-top: 20px;
+    }
+    .benefit .title-benefit p {
+        font-size: 25px;
+    }
+    .benefit .carousel .carousel-indicators li {
+        margin: 0 8px;
+    }
+    .steps {
+        background-size: cover;
+    }
+    .steps .title-steps {
+        font-size: 25px;
+    }
+    .steps .list-steps .list-steps-item {
+        margin-bottom: 0;
+        padding: 0 30px 0 30px;
+    }
+    .title-process {
+        font-size: 25px;
+    }
+    .title-maxim {
+        font-size: 25px;
+    }
+    .title-statistical {
+        font-size: 25px;
+    }
+    .bg-testi p {
+        font-size: 20px;
+    }
+    .time-remain .title-time {
+        font-size: 25px;
+        padding: 40px 0 20px 0;
+        width: 90%;
+    }
+    .time-remain .clock .tll-clock {
+        padding: 0 30px 15px 30px;
+    }
+    .time-remain .clock .clock-number .item-box span {
+        font-size: 40px;
+    }
+    .community .title-cmnt {
+        font-size: 25px;
+    }
+    .title-effective {
+        width: 90%;
+        font-size: 25px;
+    }
+    .effective .list-effective-mobile .effective-mobile-item p {
+        font-size: 20px;
+    }
+}
+@media (max-width: 400px) {
+    .banner-intro .content-banner .txt-banner p.title-intro {
+        font-size: 37px;
+    }
+    .banner-intro .content-banner .txt-banner .sub-title-intro p {
+        font-size: 20px;
+    }
+    .testimonials p {
+        font-size: 18px;
+    }
+    .maxim .button-it button {
+        padding: 10px 15px !important;
+        font-size: 20px;
+    }
+    .bg-testi p {
+        font-size: 18px;
+    }
+    .effective .list-effective-mobile .effective-mobile-item p {
+        font-size: 18px;
+    }
+    .time-remain .img-banner p {
+        font-size: 18px;
+    }
+    .time-remain .img-banner p span {
+        font-size: 22px;
+    }
+    .time-remain .clock .tll-clock {
+        font-size: 18px;
+    }
+    .time-remain .clock .clock-number .item-box span {
+        font-size: 37px;
+    }
+    .time-remain .form-regis {
+        padding-top: 20px;
+    }
+    .time-remain  .suathoc p {
+        font-size: 16px;
+    }
+    .time-remain {
+        background-size: cover;
+    }
+    .statistical #slide-testimonials .carousel-item span {
+        font-size: 18px;
+    }
+}
