@@ -1,7 +1,22 @@
 @font-face {
-    font-family: "Paytone One";
-    src: url(/fonts/Paytone_One/PaytoneOne-Regular.ttf);
+    font-family: "Roboto";
+    src: url(/fonts/Roboto/Roboto-Light.ttf);
+    font-weight: 300;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url(/fonts/Roboto/Roboto-Regular.ttf);
     font-weight: 400;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url(/fonts/Roboto/Roboto-Medium.ttf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url(/fonts/Roboto/Roboto-Bold.ttf);
+    font-weight: 700;
 }
 @font-face {
     font-family: "Montserrat";
@@ -9,1250 +24,983 @@
     font-weight: 700;
 }
 @font-face {
-    font-family: "Montserrat";
-    src: url(/fonts/Montserrat/Montserrat-Light.ttf);
-    font-weight: 300;
-}
-@font-face {
-    font-family: "Montserrat";
-    src: url(/fonts/Montserrat/Montserrat-Medium.ttf);
-    font-weight: 500;
-}
-@font-face {
-    font-family: "Montserrat";
-    src: url(/fonts/Montserrat/Montserrat-SemiBold.ttf);
-    font-weight: 600;
-}
-@font-face {
-    font-family: "Montserrat";
-    src: url(/fonts/Montserrat/Montserrat-ExtraBold.ttf);
-    font-weight: 800;
-}
-@font-face {
-    font-family: "Montserrat";
-    src: url(/fonts/Montserrat/Montserrat-Black.ttf);
+    font-family: "Roboto";
+    src: url(/fonts/Roboto/Roboto-Black.ttf);
     font-weight: 900;
 }
-.mt-80{
-    margin-top: 80px;
+header{
+    font-family: "Roboto";
 }
-.w-1080{
-    max-width: 1080px;
+a:hover{
+    text-decoration: none !important;
 }
-.btn-pink{
-    border: 5px solid #ff5d91;
-    font-size: 22px;
-    border-radius: 50px;
-    padding: 10px 40px;
-    background-color:#ea2a58 ;
-    font-weight: 700;
-    font-family: "Montserrat";
+.w-87{
+    width: 87%;
 }
-.btn-pink-light{
-    background-color:#f23e79 ;
-    box-shadow: 0px 5px #bfbfbf;
+.mt-100{
+    margin-top: 100px;
 }
-.banner-intro{
-    background-image: url('/images/event/gioithieu/bg header.png');
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: cover;
+.header{
+    background-color:#000000 ;
 }
-.spc-banner{
-    padding-top: 200px;
-    padding-left: 400px;
+.header .sub-header .box-logo{
+    width: 20%;
 }
-.banner-intro .content-banner{
+.header .sub-header .logo{
+    max-width: 130px;
+}
+.header .sub-header{
+    padding: 12px 0;
+}
+.header .sub-header .contact-header{
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 400;
+    width: 45%;
+}
+.header .sub-header .contact-header .phone{
+    width: 25%;
+}
+.header .sub-header .contact-header .phone img{
+    width: 20px;
+}
+.header .sub-header .contact-header .facebook{
+    width: 25%;
+}
+.header .sub-header .contact-header .facebook img{
+    width: 23px;
+    margin-top: -2px;
+}
+.header .sub-header .sign-in .introduct img{
+    width: 24px;
+    margin-top: -2px;
+}
+.header .sub-header .contact-header .email{
     width: 40%;
-    padding-bottom: 50px;
 }
-.banner-intro .logo-educa{
-    text-align: center;;
-    padding-bottom: 20px;
+.header .sub-header .contact-header .email img{
+    width: 25px
 }
-/* banner */
-.banner-intro .content-banner .txt-banner p.title-intro{
-    font-size: 60px;
-    text-shadow: 4px 0 #ef168c, 0 4px #ef168c, 4px 0 #ef168c, 0 4px #ef168c;
-    color: #ffdd21 ;
-    text-transform: uppercase;
-    font-family: "Paytone One";
-    text-align: center;
+.header .sub-header .sign-in{
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 400;
+    width: 35%;
 }
-.banner-intro .content-banner .txt-banner .sub-title-intro p{
-    font-size: 30px;
-    color: #1126c1 ;
-    font-family: "Paytone One";
-    text-align: center;
+.header .sub-header .sign-in .introduct{
+    width:40%
 }
-.banner-intro .content-banner .txt-banner .list-intro-banner{
-    width: 85%;
-    margin: auto;
+.header .sub-header .sign-in .login{
+    /*margin-right: 43px;*/
+    width: 30%
 }
-.banner-intro .content-banner .txt-banner .list-intro-banner p{
-   font-size: 18px;
-   font-family: "Montserrat";
-    display: flex;
+.header .sub-header .sign-in .register{
+    /*border: 2px solid #FFFFFF;*/
+    /*box-sizing: border-box;*/
+    width:30%
 }
-.banner-intro .btn-more{
-    font-size: 22px;
-    background-color:#ffd642 ;
-    border-radius: 50px;
-    font-weight: 700;
-    padding: 10px 40px;
-    font-family: "Montserrat";
-    box-shadow: 0px 5px #bfbfbf;
-    border: 5px solid #ffe742;
-}
-/*  */
-.benefit .title-benefit p{
-    font-family: "Montserrat";
-    font-weight: 800;
-    font-size: 39px;
-    color: #f23e79;
-}
-.benefit .sub-title-benefit p{
-    font-family: "Montserrat";
-    font-weight: 600;
-    padding: 0 20px;
-    font-size: 20px;
-}
-.benefit .list-benefit .list-benefit-item .except-item{
-    color: #000;
-    font-family: "Montserrat";
-}
-.benefit .list-benefit .list-benefit-item .except-item p:first-child{
-    margin-bottom: 0;
-}
-.benefit .list-benefit .list-benefit-item .img-item{
-    padding-bottom: 16px;
-}
-.benefit .button-it{
-    margin: 25px auto 58px 0;
-}
-.benefit .list-benefit-item{
-    padding-right: 60px;
-    padding-bottom: 20px;
+.header .sub-header .sign-in .register a{
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    padding: 12px 22px;
 }
 
- .benefit .carousel .carousel-inner .carousel-item{
-   padding: 0 100px;
+.banner {
+    background-image: url("/img/web/home/banner.png");
+    background-size:cover;
+    height: 100%;
 }
-.benefit .carousel .carousel-inner .carousel-excerpt{
-    text-align: center;
-    padding-top: 15px;
-}
-.benefit .carousel .carousel-inner .carousel-excerpt h5{
-    text-align: center;
-    font-size: 28px;
-    font-family: "Montserrat";
-    font-weight: 600;
-}
-.benefit .carousel .carousel-inner .carousel-excerpt p{
-    text-align: center;
-    font-size: 20px;
-    font-family: "Montserrat";
-}
-.benefit .carousel .carousel-indicators{
-    position: relative;
-}
-.benefit .carousel .carousel-indicators li{
-   background-color: gray;
-   width: 20px;
-   border-radius: 30px;
-   border-top: 0;
-   border-bottom: 0;
-   margin: 0 5px;
-   height: 20px;
-} 
-/*  */
-.steps{
-    background-image: url('/images/event/gioithieu/Section 3/bg pea.png');
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: 100%;
-}
-.steps .list-steps{
-    /* padding-bottom: 90px; */
-}
-.steps .list-steps .list-steps-item{
-    width: calc(100%/5);
-    padding:0 12px 0 16px;
-    margin-bottom: 70px;
-    text-align: center;
-    font-size: 18px;
-    font-family: "Montserrat";
-}
-.steps .list-steps .list-steps-item .img-step{
-   padding: 0 20px 12px 20px;
-   text-align: center;
-}
-.steps .list-steps .list-steps-item .img-step span{
-    position: absolute;
-    display: block;
-    left: 50%;
-    top: 50%;
-    transform: translate(-44%, -60%);
-    font-weight: 900;
-    font-family: "Montserrat";
-    color: #ffe615;
-    font-size: 24px;
-}
-.steps .list-steps .list-steps-item .img-step span.pl-span{
-    transform: translate(-46%, -60%);
-}
-.steps .title-steps{
-    font-family: "Paytone One";
-    font-size: 39px;
-    color: #ea2a58;
-    text-align: center;
-    padding: 60px 65px 55px 65px;
-    margin: auto;
-    width: 85%;
-}
-/* process */
-.bg-white{
-    background-color: #fff;
-}
-.w-1080{
-    max-width: 1090px;
-}
-.process{
-    background-image: url('/images/event/gioithieu/Section 4/bg khinh khi cau.png');
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: cover;
-    margin-top: -26px;
-}
-.title-process{
+.banner .box-banner{
     width: 68%;
     margin: auto;
-    font-family: "Paytone One";
-    font-size: 39px;
-    color: #ea2a58;
-    text-align: center;
-    padding:60px 60px 50px 60px;
+    padding-bottom: 130px;
 }
-.process .list-process{
-    display: flex;
-    justify-content: space-between;
+.banner .box-banner .title {
+    padding: 50px 0 25px 0;
 }
-.process .list-process:last-child{
-    width: 75%;
-    margin: auto;
-}
-.process .list-process .list-process-item p{
-   text-align: center;
-   font-size: 18px;
-   color: #000 ;
-   font-weight: 400;
-   font-family: "Montserrat";
-   padding-top: 12px;
-}
-.process .list-process .list-process-item{
-   max-width: 156px;
-}
-.process .bottom-process .title-process{
-    width: 85%;
-    padding: 60px  0 40px 0;
-}
-.process .bottom-process .list-video-demo .list-video-item{
-    padding:20px ;
-}
-.process .bottom-process .list-video-demo .list-video-item p{
-   font-size: 18px;
-   font-family: "Montserrat";
-   color: black;
-   text-align: left;
-   margin: 10px 0 0 0;
-}
-.process .bottom-process .list-video-demo .list-video-item .video{
-    width: 100%;
-}
-.process .bottom-process .list-video-demo .list-video-item .video img{
-    border-radius: 25px;
-}
-.process .bottom-process .list-video-demo .list-video-item .video video{
-    width: 100%;
-}
-/*  */
 
-.title-maxim{
-    width: 85%;
+.banner .form-hana .left{
+    width: 30%;
+    /*margin: auto;*/
+    /*text-align: center;*/
+}
+.banner .form-hana .left .active{
+    background-color: rgba(0, 0, 0, 0.4);
+    border-right: 3px solid #fff;
+}
+.banner .form-hana .right{
+    width: 70%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.banner .form-hana{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.banner .form-hana .box-form{
+    padding: 31px 0;
+}
+.banner .form-hana .box-form .ct_form_hana{
+    width: 92%;
     margin: auto;
-    font-family: "Montserrat";
-    font-weight: 800;
-    font-size: 39px;
-    color: #ea2a58;
+}
+.banner .form-hana .box-form .ct_form_hana .boxcar{
+    width: 86px;
+    height: 86px;
+    border-radius: 50%;
+    background: #fff;
+    margin: 40px auto;
+}
+.banner .form-hana .box-form .ct_form_hana .car h5{
+   font-size: 15px;
+    font-weight: 400;
+    line-height: 17px;
+    font-family: "Roboto";
+    margin-top: -20px;
+}
+.banner .form-hana .box-form .ct_form_hana .box1 img{
+   margin-top: 27px;
+}
+.banner .form-hana .box-form .ct_form_hana .box2 img{
+    margin-top: -6px;
+}
+.banner .box-banner .title h1 {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 55px;
     text-align: center;
-    padding:60px 60px 40px 60px
+    text-transform: uppercase;
+    color: #f28f01;
+    text-shadow: rgb(255, 255, 255) 3px 0px 0px,
+    rgb(255, 255, 255) 2.83487px 0.981584px 0px,
+    rgb(255, 255, 255) 2.35766px 1.85511px 0px,
+    rgb(255, 255, 255) 1.62091px 2.52441px 0px,
+    rgb(255, 255, 255) 0.705713px 2.91581px 0px,
+    rgb(255, 255, 255) -0.287171px 2.98622px 0px,
+    rgb(255, 255, 255) -1.24844px 2.72789px 0px,
+    rgb(255, 255, 255) -2.07227px 2.16926px 0px,
+    rgb(255, 255, 255) -2.66798px 1.37182px 0px,
+    rgb(255, 255, 255) -2.96998px 0.42336px 0px,
+    rgb(255, 255, 255) -2.94502px -0.571704px 0px,
+    rgb(255, 255, 255) -2.59586px -1.50383px 0px,
+    rgb(255, 255, 255) -1.96093px -2.27041px 0px,
+    rgb(255, 255, 255) -1.11013px -2.78704px 0px,
+    rgb(255, 255, 255) -0.137119px -2.99686px 0px,
+    rgb(255, 255, 255) 0.850987px -2.87677px 0px,
+    rgb(255, 255, 255) 1.74541px -2.43999px 0px,
+    rgb(255, 255, 255) 2.44769px -1.73459px 0px,
+    rgb(255, 255, 255) 2.88051px -0.838247px 0px;
 }
-.maxim .button-it{
-    margin-bottom: 60px ;
-    margin: 70px auto 60px
+.banner .form-hana .right .form{
+    padding-left: 30px;
+    padding-top: 34px;
+    padding-right: 30px;
 }
-.maxim .list-maxim p{
-    font-family: "Montserrat";
-    font-size: 18px;
-    margin-bottom: 8px;
-    display: flex;
-    letter-spacing: 1px;
+.banner .form-hana .right .form .fa-map-marker{
+    font-size:28px !important;
+    color:#E5C300 !important;
+    margin-top: -7px;
 }
-/*  */
-.testimonials{
-    margin: 20px 0;
+.banner .form-hana .right .form .name_search{
+    font-size: 14px;
+    font-family: "Roboto";
+    font-weight: bold;
+    line-height: 16px;
+    color: #E5C300;
+    margin-bottom: 8px !important;
 }
-.testimonials .ct-testimonial{
+.banner .form-hana .right .form select.province{
+    width: 125px !important;
+}
+.banner .form-hana .right .form select.distinct{
+    width: 145px !important;
+}
+.banner .form-hana .right .form select.town{
+    width: 130px !important;
+    margin-left: 20px;
+}
+.banner .form-hana .right .form select.date_to{
+    width: 140px !important;
+}
+.banner .form-hana .right .form select{
+  background: rgba(0, 0, 0, 0) !important;
+    color: white !important;
+    border-radius: unset !important;
+    border: unset !important;
+}
+.banner .form-hana .right .form select:focus{
+  box-shadow: unset !important;
+}
+.banner .form-hana .right .form form .form-row{
+    border-bottom: 1px solid white;
+    margin-bottom: 25px;
+}
+.banner .form-hana .right .form form .form-group{
+    margin-bottom: 0.5rem !important;
+}
+.banner .form-hana .right .form form .form-group .form-control{
+    padding: 0 ;
+}
+.banner .form-hana .button_form .search_hana {
+    width: 100%;
+    background: #FFFFFF !important;
+    border-color: #fff;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 22px;
+    color: #E5C300;
+    padding: 14px;
+}
+.banner .form-hana .date_form {
+    border: unset;
+    background: unset;
+    color: white;
+    width: 125px ;
+}
+.banner .form-hana .date_form:focus {
+    outline: none;
+}
+.banner .form-hana .fa-angle-down  {
+    margin-top: 5px;
+    font-weight: 600;
+}
+.banner .form-hana .right .form select.hour_to{
+    width: 100px !important;
+    padding-left: 20px !important;
+}
+
+
+
+/*=======================================*/
+.feature{
+    padding-top: 80px;
+    font-family: "Roboto";
+    width: 79%;
+}
+.feature h5{
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    color: #777572;
+}
+.feature .list-feature{
+    padding-top: 34px;
+}
+.feature .list-feature .img_feature{
+    padding: 0 7px;
+}
+
+/*//==========*/
+.instruct{
+    width: 92%;
+    border: 3px dashed #E5C300;
+}
+.box-steps{
+    margin-top: 150px;
+}
+.instruct .box-content{
+
+}
+.instruct .title_instruct{
+    background: #fff;
+    width: 430px;
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.instruct .title_instruct h3{
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 32px;
+    color: #000000;
+}
+.instruct .list-steps{
+   width: 90%;
+    margin: auto;
+    padding: 51px 0;
+}
+.instruct .list-steps .step{
+    padding: 0 30px;
+}
+.instruct .list-steps .step h5{
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #777572;
+    padding-top: 27px;
+}
+.instruct .box-content .more-step{
+    position: absolute;
+    bottom: 0;
+    right: 7%;
+    transform: translate(0,50%);
+}
+.instruct .box-content .more-step a{
+    background: #E5C300 !important;
+    border-radius: 5px;
+    font-family: "Roboto";
+}
+.position{
+    width: 66%;
+    padding-top: 100px;
+}
+.position .img_position:last-child{
+    padding-left: 20px;
+    padding-right: 0px;
+}
+.position .img_position:first-child{
+    padding-right: 20px;
+    padding-left: 0px;
+}
+.position h4{
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    color: #777572;
+    padding-bottom: 20px;
+}
+.position .list-position .text{
+    bottom: 5%;
+    left: 5%;
+    font-family: "Roboto";
+}
+.position .list-position .text:last-child{
+    left: 10%;
+}
+.position .list-position .text h5{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+}
+.position .list-position .text p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.banner_regis{
+    padding-top: 70px;
+    font-family: "Roboto";
+}
+.banner_regis .text_regis{
+    width: 30%;
+    top: 55%;
+    right: 0;
+    transform: translate(-20%,-50%);
+}
+.banner_regis .text_regis .act_regis_home .btn_info_home{
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 600;
+    color: #000000;
+    background: #FFFFFF !important;
+    border-radius: 5px;
+}
+.banner_regis .text_regis .act_regis_home .btn_regis_home{
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 600;
+    color: #fff;
+    background: #E5C300 !important;
+    border-radius: 5px;
+    padding: .365rem 20px;
+}
+.banner_regis .text_regis h2{
+    font-weight: 900;
+    font-size:39px;
+    line-height:46px ;
+    margin-bottom: 20px;
+}
+.banner_regis .text_regis p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
     margin-bottom: 35px;
 }
-.testimonials p{
-    font-size: 24px;
-    font-family: "Montserrat";
-    font-weight: 700;
-    color: #0b48b7;
-    padding:50px;
-    text-align: left;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-}
-/*  */
-/* statistical */
-.statistical{
-    background-image: url('/images/event/gioithieu/Section 6/BG 200k.png');
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: cover;
-}
-.title-statistical{
-    margin: auto;
-    font-family: "Paytone One";
-    font-size: 39px;
-    color: #ea2a58;
-    text-align: center;
-    width: 95%;
-    padding: 60px 0 40px 0;
-}
-.statistical .main-statis{
-    padding-bottom: 65px;
-}
-.statistical .main-statis .ps-vietnam span{
-    position: absolute;
-    bottom: 14%;
-    left: 51%;
-    transform: translate(-50%,50%);
-    color: white;
-    font-family: "Montserrat";
-    font-weight: 400;
-    font-size: 18px;
-    text-align: center;
-}
-.statistical .ps-vietnam{
-    padding: 0 50px 0 50px;
-}
-.effective{
-    background-color: white;
-    background-image: url('/images/event/gioithieu/Section 7/icon hieu qua gap 5 lan.png');
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: 100%;
-    width: 82%;
-    margin: auto;
-}
-.title-effective{
-    margin: auto ;
-    font-family: "Paytone One";
-    font-size: 39px;
-    color: #ea2a58;
-    text-align: center;
-    width: 83%;
-    padding: 60px 0 40px 0;
-}
-.effective .list-effective .list-effective-item{
-    padding: 20px ;
-}
 
-.effective .list-effective .list-effective-item p.first{
-    font-weight: 600 ;
-    font-family: "Montserrat";
-    font-size: 18px;
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translate(-23%, 54%);
+.car_section {
+    padding-top: 80px;
+    font-family: "Roboto";
+    width: 79%;
 }
-.effective .list-effective .list-effective-item p.first-large{
-    transform: translate(-23%, 26%);
-    width: 200px;
-}
-.effective .list-effective .list-effective-item p.second{
-    font-weight: 300 ;
-    display: flex;
-    font-family: "Montserrat";
-    font-size: 18px;
-    position: absolute;
-    top: 0;
-    left: 29%;
-    transform: translate(-23%, 138%);
-}
-.effective .list-effective .list-effective-item p.sc-large{
-    transform: translate(-23%, 104%) !important;
-}
-.effective .list-effective .list-effective-item p.sc-large:first-child{
-    transform: translate(-23%, 104%);
-}
-.effective .list-effective .list-effective-item p.second:last-child{
-   width: 306px;
-    transform: translate(-23%, 138%);
-}
-/*  */
-.time-remain{
-    background-image: url('/images/event/gioithieu/Section 8/bg form uu dai.png');
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size:cover;
-}
-.time-remain .title-time{
-    width: 80%;
-    margin: auto ;
-    font-family: "Paytone One";
-    font-size: 39px;
-    color: #ea2a58;
-    text-align: center;
-    padding:60px 60px 40px 60px;
-}
-.time-remain .clock .clock-number .item-box{
-    width: calc(100%/11);
-    background-color: #fff;
-     border-radius: 7px;
-     text-align: center;
-     -webkit-box-shadow: 1px -1px 8px 1px rgba(0,0,0,0.44);
-    -moz-box-shadow: 1px -1px 8px 1px rgba(0,0,0,0.44);
-    box-shadow: 1px -1px 8px 1px rgba(0,0,0,0.44);
-}
-.time-remain .clock .clock-number .item-box span{
-    font-size: 64px;
-    text-shadow: 0px 0 blue, 0 0px blue, 0px 0 blue, 0 0px blue;
-    color:#16e5f7;
-    font-weight: 800;
-    text-align: center;
-    font-family: "Montserrat";
-}
-.time-remain .clock .clock-number .list-item{
-    flex-wrap: nowrap;
-
-}
-.time-remain .img-banner{
-    padding-bottom: 40px;
-}
-.time-remain .img-banner p{
-    position: absolute;
-    top: 35%;
-    left: 50%;
-    transform: translate(-51%,-50%);
-    font-family: "Montserrat";
+.car_section h5{
     font-weight: bold;
-    color: white;
-    font-size: 20px;
+    font-size: 17px;
+    line-height: 20px;
+    color: #777572;
 }
-.bg-unset{
-    background-color: unset !important;
-    box-shadow: unset !important;
+.car_section .list-car{
+    padding-top:15px
 }
-.time-remain .clock .tll-clock{
-    padding-bottom: 16px;
-    font-family: "Montserrat";
-    font-size: 20px;
+.car_section .list-car .img_car {
+    padding: 0 7px;
 }
-.w-65{
-    width: 65%;
+.car_section .info_car .star {
+    background: linear-gradient(to right,#fc3 70%,#ccc 70%);
+    color: transparent;
+    font-size: 25px;
+    padding-right: 20px;
+    -webkit-background-clip: text;
 }
-.time-remain .clock .clock-unit{
-    padding-top: 10px;
+.car_section .list-car .info_car h5 {
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 17px;
+    color: #000000;
+    padding-top: 13px;
 }
-.time-remain .clock .clock-unit .unit-item{
-    font-size: 16px;
-    font-family: "Montserrat";
-    font-weight: 500;
-}
-.time-remain form button.btn-secondary{
-    background-color: white;
-    color: gray;
-    text-align: left;
-    border-color: #cacaca;
-    width: 100%;
-    position: relative;
-}
-.time-remain .form-regis{
-    width: 84%;
-    margin: auto;
-    padding-top: 40px;
-    padding-bottom: 60px;
-}
-.time-remain form p{
-   font-size: 16px;
-   font-family: "Montserrat";
-   margin-bottom: 10px;
-}
-.time-remain .item-ip{
-  padding: 0 30px 0 30px;
- }
-.dropdown-toggle::after {
-    float: right;
-    position: absolute;
-    right: 10px;
-    top: 18px;
-}
-.time-remain  .suathoc p{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    font-size: 18px;
-    font-family: "Montserrat";
-}
-/*  */
-.commnunity {
-
-}
-.community .title-cmnt{
-        font-family: "Paytone One";
-        font-size: 39px;
-        color: #ea2a58;
-        text-align: center;
-        padding: 60px 0 55px 0;
-        margin: auto;
-        width: 100%
-}
-.main-cmnt{
-    padding-bottom: 70px;
-}
-/*  */
-.rewals .cmt-vtv span{
-    position: absolute;
-    top: 43%;
-    left: 27%;
-    transform: translate(-20%,-50%);
-    color: #000;
-    text-align: center;
-    font-weight: 500;
-    font-size: 16px;
-    font-family: "Montserrat";
-}
-.rewals .box-cmt{
-    position: absolute;
-    top: -19%;
-    left: 0;
-}
-
-.rewals .cmt-rewal span{
-    position: absolute;
-    top: 49%;
-    left: 27%;
-    transform: translate(-20%,-50%);
-    color: #000;
-    text-align: center;
-    font-weight: 500;
-    font-size: 16px;
-    font-family: "Montserrat";
-}
-.rewals .box-rewal{
-    position: absolute;
-    top: -24%;
-    left: 0;
-}
-.rewals .rewal-item{
-    /* border: 1px dashed #f89a23; */
-}
-.list-baochi .img img{
-    width: 100%;
-}
-.list-baochi .img{
-    width: 100%;
-}
-.rewal-item p{
-    font-size: 16px;
+.car_section .list-car .info_car span.num_trip {
     font-weight: 400;
-    font-family: "Montserrat";
-    padding-top: 20px;
+    font-size: 12px;
+    line-height: 14px;
+    color: #777572;
+    margin-top: 7px;
 }
-.bg-testi p{
-    font-size: 25px;
-    color: #007cd0;
-    font-weight: 600;
-    font-family: "Montserrat";
+
+.car_section .list-car .info_car .btn_more_car {
+    background: #E8EAEF;
+    color: #777572;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    margin-bottom: 9px;
 }
-.bg-testi .txt-may{
+
+.car_section .list-car .info_car .rating {
+    margin-top: -10px;
+}
+
+.car_section .list-car .info_car .mapping i {
+    color: #DADADA;
+}
+
+.car_section .list-car .info_car .mapping span {
+    font-size: 12px;
+    line-height: 19px;
+    color: #777572;
+}
+
+
+.testimonial{
+    font-family: "Roboto";
+    background-image: url("/img/web/home/bg_testimonial.png");
+    background-size:cover;
+    height: 100%;
+}
+.testimonial .title_feedback{
+    width: 79%;
+    padding: 35px 0  15px 0;
+    margin: 0 auto 85px auto;
+}
+.testimonial .title_feedback h4{
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 32px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.testimonial .title_feedback p{
+    font-size: 15px;
+    line-height: 17px;
+    color: #57575A;
+
+}
+.testimonial .content{
+    width: 79%;padding-bottom: 50px;
+}
+.testimonial .box .img{
+    width: 120px;
+}
+.testimonial .box .img img{
+    border-radius: 50%;
+}
+.testimonial .box .feedback{
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+.testimonial .box .feedback .img{
     position: absolute;
-    width: 80%;
-    top: 50%;
+    top: 0;
     left: 50%;
     transform: translate(-50%,-50%);
 }
-.statistical .img-slide-testi{
-    width: 60%;
-    margin: auto;
+.testimonial .box .feedback .text_feedback{
+    padding: 79px 20px 10px 20px;
 }
-.statistical .img-slide-testi{
-    width: 60%;
-    margin: auto;
-}
-.statistical #slide-testimonials .carousel-item span{
-    position: absolute;
-    bottom: 5%;
-    left: 50%;
-    font-size: 25px;
-    font-family: "Montserrat";
-    color: white;
-    transform: translate(-50%, -50%);
-}
-.statistical #slide-testimonials span.img-action{
-    width: 40px;
-    height: 40px;
-}
-
-.footer-ldp{
-    background-image: url('/images/event/gioithieu/Section 10/chan trang.png');
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: cover;
-}
-.footer-ldp .socials .soci-item{
-    padding-right: 16px;
-}
-.footer-ldp .txt-flow,.footer-ldp .email-ft a,.footer-ldp .location-ft span,.footer-ldp .txt-ft-ldp{
-    font-size: 18px;
-    color: white;
-    font-family: "Montserrat";
-    padding-bottom: 15px;
-}
-.footer-ldp .main-footer-ldp{
-    padding: 60px 0 200px 0;
-}
-.footer-ldp .socials{
-    padding-bottom: 23px;
-}
-.footer-ldp .ct-footer-ldp{
-    padding-bottom: 23px;
-}
-.footer-ldp .location-ft{
-    padding-right: 150px;
-}
-.footer-ldp .lgo-ft-ldp{
-    max-width: 197px;
-    max-height: 60px;
-    margin-bottom: 16px;
-}
-.footer-ldp .item-right-ft{
-    padding-left: 70px;
-}
-
-
-.mauticform-button{
-    background: #ea2a58 !important;
-    padding:16px 50px !important
-}
-.mauticform-selectbox, .mauticform-input, .mauticform-textarea {
-    min-height: 50px;
-}
-.mauticform_wrapper{
-    padding-top: 40px;
-}
-.mauticform-page-wrapper {
-    display: flex !important;
-    flex-wrap: wrap;
-}
-
-.mauticform_wrapper {
-    max-width: unset !important;
-    margin: auto !important;
-    width: 100% !important;
-}
-.mauticform-row {
-    padding-right: 50px !important;
-    width: calc(100%/3) !important;
-}
-#mauticform_m063inhouseedupiahocthumienphitestform_submit{
-    margin: auto !important;
+.testimonial .box .feedback .text_feedback p{
+    font-size: 16px;
+    line-height: 20px;
     text-align: center;
+    color: #57575A;
 }
-.mauticform-button-wrapper .mauticform-button.btn-default, .mauticform-pagebreak-wrapper .mauticform-pagebreak.btn-default{
-    border: 5px solid #ff5d91 !important;
-    font-size: 20px;
-    border-radius: 50px;
-    padding: 10px 30px !important;
-    background-color: #ea2a58;
+
+.blogs{
+    width: 80%;
+    font-family: "Roboto";
+    margin: 80px auto 50px auto;
+}
+.blogs .title_blog{
+    padding-bottom: 30px;
+}
+
+.blogs .title_blog h3{
     font-weight: 700;
-    font-family: "Montserrat";
-    margin: 20px auto 20px auto !important;
-    color: white !important;
+    font-size: 27px;
+    line-height: 32px;
+    color: #000000;
 }
-.bs-example{
-    margin: 20px;
+.blogs .content_blog .des{
+    bottom: 0;
+    left: 0;
+    background: black;
+    width: 100%;
+    opacity: 0.6;
+    min-height: 100px;
 }
-.modal-content iframe{
-    margin: auto;
-    display: block;
+
+.blogs .content_blog .des1 {
+    left: 2.5%;
+    width: 95%;
 }
-.modal-content {
-     background-color: unset !important;
-     border:none !important
+.blogs .content_blog .des3 {
+    width: 99%;
 }
-.end-time{
-    font-size: 30px;
-    font-family: "Montserrat";
+
+element.style {
+}
+.blogs .content_blog .des4 {
+    left: 2%;
+    width: 98%;
+}
+.blogs .content_blog .des h5{
     font-weight: 600;
-    color: blue;
-    text-align: center;
-    display: none;
+    font-size: 19px;
+    line-height: 22px;
 }
+.blogs .text_blog{
+    bottom: 0;
+    left: 5%;
+    width: 90%;
+}
+.blogs .text_blog h5{
+    font-size: 19px;
+    line-height: 22px;
+    font-weight: 500;
+}
+.blogs .sub-blog1 h5{
+    font-size: 17px !important;
+}
+.blogs .sub-blog2 h5,.blogs .sub-blog3 h5{
+    font-size: 16px !important;
+}
+.blogs .content_blog img{
+    border-radius: 5px 5px 0 0;
+}
+
+
+
+
 /* ============================================ Responsive ====================================== */
 /* responsive */
 
-@media (max-width: 1400px) {
+@media (max-width: 1800px) {
 
 }
 
+@media (max-width: 1440px) {
+    .banner .box-banner .title {
+        padding: 30px 0 10px 0;
+    }
+    .banner .box-banner {
+        padding-bottom: 35px;
+    }
+}
+@media (max-width: 1350px) {
+    .banner .box-banner {
+        width: 85%;
+    }
+}
 @media (max-width: 1200px) {
-
-}
-
-@media (max-width: 992px) {
-    
-    .banner-intro {
-        background-image: url(/images/event/gioithieu/bg-banner-mobile.png);
-        background-size: 100% 100%;
-    }
-    .banner-intro .content-banner {
-        width: 100%;
-        padding-bottom: 500px;
-        padding-top: 30px;
-    }
-    .spc-banner {
-         padding-top: 0; 
-         padding-left: 0; 
-    }
-    .banner-intro .content-banner .txt-banner p.title-intro {
-        font-size: 55px;
-    }
-    .banner-intro .content-banner .txt-banner .sub-title-intro p {
-        font-size: 25px;
-    }
-    .banner-intro .content-banner .txt-banner .list-intro-banner {
-        width: 67%;
-    }
-    .list-button-banner{
-        text-align: center;
-        display: flex;
-        flex-direction: column-reverse;
-    }
-    .list-button-banner a:last-child{
-      padding-bottom: 20px;
-    }
-    .list-button-banner a button.btn-free{
-        padding:15px 55px ;
-    }
-    .list-button-banner  button.btn-more{
-        padding: 15px 76px ;
-    }
-    
-    .benefit .title-benefit p {
-        text-align: center;
-        font-size: 35px;
-        padding: 0 20px;
-    }
-    .benefit .sub-title-benefit p {
-       display: none;
-    }
-    .steps {
-        background-image: url('/images/event/gioithieu/Section 3/bg-mobile.png');
-        background-position: bottom;
-    }
-    .steps .title-steps {
-        font-size: 35px;
-        padding: 40px 0 25px 0px;
-    }
-    .steps .list-steps .list-steps-item {
-        margin-bottom: 30px;
-    }
-    .steps .list-steps {
-        padding-bottom: 60px;
-    }
-    .process {
-        background-image: url('/images/event/gioithieu/Section 4/bg-khicau-mobile.png');
-    }
-    .title-process {
-        font-size: 35px;
-        padding: 50px 0 40px 0;
-    }
-    .process .top-process .list-process-mobile .list-process-mobile-item p{
-        font-size: 18px;
-        font-family: "Montserrat";
-        padding-top: 10px;
-    }
-    .process .bottom-process .list-video-demo .list-video-item {
-      padding: 0 80px 30px 80px
-    }
-    .process .list-intro-process p{
-        font-size: 18px;
-        font-family: "Montserrat";
-    }
-    .process .list-intro-process {
-        padding: 0 20px 30px 60px;
-    }
-    .title-maxim {
-        font-size: 35px;
-    }
-    .main-maxim{
-        padding: 0 40px;
-    }
-    .main-maxim .list-maxim{
-        padding-top: 30px;
-    }
-    .statistical {
-        background-image: url('/images/event/gioithieu/Section 6/bg-mobile-may.png');
-    }
-    .img-may {
-        width: 80%;
-        margin: auto;
-        padding-bottom: 30px;
-    }
-    .effective {
-        background-image: unset;
-    }
-    .title-effective {
-        font-size: 35px;
-    }
-    .effective .list-effective-mobile .effective-mobile-item{
-      width: 80%;
-      margin: auto;
-      padding-bottom: 20px;
-    }
-    .effective .list-effective-mobile .effective-mobile-item p{
-        position: absolute;
-        top: 35%;
-        left: 68%;
-        width: 65%;
-        transform: translate(-50%,-50%);
-        color: #000;
-        font-family: "Montserrat";
-        font-weight: 700;
-        font-size: 24px;
-        text-align: left;
-    }
-    .time-remain .title-time {
-        font-size: 35px;
-    }
-    .time-remain {
-        background-image: url('/images/event/gioithieu/Section 8/bg-mobile.png');
-    }
-    .time-remain .main-time .form-regis input, .time-remain .main-time .form-regis .dropdown button{
-        min-height: 50px;
-    }
-    .time-remain form p {
-        font-weight: 600;
-    }
-    .time-remain .main-time .form-regis .dropdown-menu{
-        width: 100%;
-    }
-    .community .title-cmnt {
-        font-size: 35px;
-    }
-    .rewals{
-        width: 75%;
-        margin: auto;
-    }
-    .title-statistical {
-        font-size: 35px;
-    }
-    .footer-ldp .main-footer-ldp{
-        width: 80%;
-        margin:auto
-    }
-    .community .title-cmnt {
+    .w-87{
         width: 90%;
     }
-    .footer-ldp .location-ft {
-        padding-right: 0;
+    .header .sub-header .contact-header .email{
+        display: none;
     }
-    .mauticform_wrapper {
-        width: 75% !important;
+    .header .sub-header .contact-header .facebook {
+        width: 40%;
     }
-    .mauticform-row {
-        padding-right: 30px !important;
-        width: calc(100%/3) !important;
+    .header .sub-header .contact-header .phone {
+        width: 40%;
     }
-    .rewals .box-cmt {
-        top: -14%;
+    .header .sub-header .sign-in .introduct {
+        display: none;
     }
-    .rewals .box-rewal {
-        top: -18%;
+    .header .sub-header .sign-in .register {
+        width: 40%;
+    }
+    .header .sub-header .sign-in .login {
+        width: 30%;
+    }
+    .header .sub-header .contact-header {
+        margin-left: 100px;
+    }
+    .banner .box-banner {
+        width: 85%;
+    }
+    .banner .form-hana .box-form .ct_form_hana {
+        width: 100%;
+    }
+    .banner_regis .text_regis h2{
+        font-size:30px;
+        line-height: 40px;
+    }
+    .testimonial .content{
+        width: 95%;
+    }
+    .blogs .content_blog .des1 {
+        left: 3.5%;
+        width: 93%;
+    }
+}
+ /*MAIN*/
+
+
+@media (max-width: 992px) {
+    .banner {
+        background-position: center;
+    }
+    .banner .form-hana .left{
+        width: 100%;
+    }
+    .banner .form-hana .right{
+        width: 100%;
+    }
+    .banner .form-hana .left .car{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        background: rgba(0, 0, 0, 0.4);
+    }
+    .banner .form-hana .box-form .ct_form_hana .boxcar{
+        margin:20px 0;
+    }
+    .banner .form-hana .box-form .ct_form_hana .car h5{
+        font-size: 20px;
+        margin-top: 0;
+        margin-left: 20px;
+    }
+    .banner .form-hana .left .active{
+        border-bottom: 3px solid #fff;
+        border-right: 0;
+        background: rgba(0, 0, 0, 0.8);
+    }
+    .banner .form-hana{
+        background:unset;
+    }
+    .banner .form-hana .box-form .ct_form_hana .button_form{
+       padding-bottom: 30px;
+    }
+    .position {
+        width: 85%;
+        padding-top: 70px;
+    }
+    .banner_regis .text_regis h2 {
+        font-size: 25px;
+        line-height: 35px;
+        margin-bottom: 10px;
+    }
+    .banner_regis .text_regis p{
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    .banner_regis .text_regis{
+        width: 35%;
     }
 }
 
 @media (max-width: 768px) {
-    .banner-intro .content-banner .txt-banner p.title-intro {
-        font-size: 50px;
-    }
-    .benefit .title-benefit p {
-        font-size: 33px;
-    }
-    .steps .title-steps {
-        font-size: 33px;
-    }
-    .title-process {
-        font-size: 33px;
-    }
-    .testimonials p {
-        padding: 0;
-    }
-    .title-maxim {
-        padding: 60px 0 40px 0;
-        font-size: 33px;
-    }
-    .title-statistical {
-        font-size: 33px;
-        width: 89%;
-    }
-    .img-may {
-        width: 90%;
-    }
-    .bg-testi p {
-        font-size: 24px;
-    }
-    .statistical #slide-testimonials .carousel-item span.last-ps {
-        bottom: -8%;
-        padding: 0 65px;
-    }
-    .title-effective {
-        font-size: 33px;
-    }
-    .effective {
-        width: 90%;
-    }
-    .time-remain .title-time {
-        font-size: 33px;
-        width: 90%;
-    }
-    .time-remain .clock .clock-number .list-item {
-        width: 80%;
-    }
-    .time-remain .clock .clock-unit {
-        width: 80%;
-    }
-    .time-remain .form-regis {
-        width: 90%;
-    }
-    .community .title-cmnt {
-        width: 92%;
-        font-size: 33px;
-    }
-    .footer-ldp .main-footer-ldp {
+    .banner .box-banner{
         width: 100%;
-        padding: 40px 0 100px 20px;
     }
-    .footer-ldp .item-right-ft {
-        padding-left: 20px;
+    .banner .form-hana .box-form {
+        padding: 5px 31px;
     }
-    .mauticform_wrapper {
-        width: 90% !important;
+    .banner .box-banner .title h1{
+        font-size: 42px;
     }
-    .mauticform-page-wrapper {
-        flex-direction: column !important;
+    .banner .form-hana .box-form .ct_form_hana .boxcar {
+        width: 70px;
+        height: 70px;
     }
-    .mauticform-row {
-        width: 85% !important;
+    .banner .form-hana .box-form .ct_form_hana .boxcar {
+        margin: 15px 0;
+    }
+    .banner .form-hana .box-form .ct_form_hana .car h5{
+        font-size: 18px;
+    }
+    .feature {
+        padding-top: 50px;
+    }
+    .feature .list-feature {
+        padding-top: 20px;
+    }
+    .feature {
+        width: 90%;
+    }
+    .position {
+        width: 90%;
+        padding-top: 50px;
+        padding-bottom:30px
+    }
+    .position .img_position{
+        padding:0 !important;
+    }
+    .banner_regis img{
+        display: none;
+    }
+    .banner_regis{
+        background-image: url("/img/web/home/banner_regis.png");
+        background-size: cover;
+    }
+
+    .banner_regis .text_regis {
+        position: unset !important;
+        width: 70%;
+        margin: auto;
+        top: 0;
+        right: 0;
+        transform: unset;
+        padding-bottom: 50px;
+    }
+    .car_section {
+        width: 95%;
+    }
+    .car_section .carousel-control-next{
+        top: -30% !important;
+        right:-5% !important;
+        opacity: 0.9 !important;
+    }
+    .car_section .carousel-control-prev{
+        top: -30% !important;
+        left: -7% !important;
+        opacity: 0.9 !important;
+    }
+    .car_section .div-icon-next {
+        width: 25px;
+        height: 25px;
+        background: #E5C300;
+        border-radius: 50%;
+
+    }
+    .car_section {
+        padding-top: 50px;
+    }
+    .mt-100{
+        margin-top: 0;
+    }
+    .testimonial .title_feedback{
         margin: auto;
     }
-    .rewals .box-cmt {
-        top: -19%;
+    .testimonial .box{
+       padding-top: 65px;
     }
-    .rewals .box-rewal {
-        top: -22%;
+    .testimonial .box .feedback{
+        margin-bottom: 70px;
+    }
+    #carouselYKKH{
+        width: 80% !important;
+        margin: auto;
+    }
+    .carousel-indicators li{
+        width: 10px !important;
+        height: 10px !important;
+        border-radius: 50%;
+        margin-right: 10px !important;
+    }
+    .carousel-indicators .active{
+        background-color:#E5C300 !important ;
+        width: 12px !important;
+        height: 12px !important;
+    }
+    .testimonial .div-icon-next {
+        width: 25px;
+        height: 25px;
+        background: #E5C300;
+        border-radius: 50%;
+    }
+    .carousel-control-next, .carousel-control-prev{
+        opacity: 0.9 !important;
+    }
+    .carousel-control-prev{
+        left: -4% !important;
+    }
+    .carousel-control-next{
+        right: -4% !important;
+    }
+    .blogs {
+        width: 95%;
+        margin: 70px auto 50px auto;
+    }
+    .blogs .content_blog .des1 {
+        left: 2.5%;
+        width: 95%;
+    }
+    #carouselBlogs .more_blog{
+        padding-top: 20px;
+    }
+    #carouselBlogs .more_blog a{
+        font-size: 14px;
+        line-height: 16px;
+        color: #777572;
+        text-decoration: underline;
+    }
+    #carouselBlogs .carousel-indicators li{
+        background-color: #D4D4D4 ;
+    }
+    #carouselBlogs .carousel-indicators{
+        bottom: -30%;
     }
 }
 
 @media (max-width: 621px) {
-    .testimonials p {
-        width: 70%;
-    }
-    
+
 }
 
 @media (max-width: 576px) {
-    .banner-intro .content-banner .txt-banner p.title-intro {
-        font-size: 45px;
+    .banner .box-banner .title h1{
+        font-size: 35px;
     }
-    .banner-intro .content-banner .txt-banner .sub-title-intro p {
-        font-size: 23px;
+    .banner .form-hana .right .form select.province{
+        width: 110px !important
     }
-    .banner-intro .content-banner .txt-banner .list-intro-banner {
-        width: 83%;
+    .banner .form-hana .right .form select.distinct{
+        width: 125px !important;
     }
-    .list-button-banner a button.btn-free {
-        padding: 12px 35px;
+    .banner .form-hana .date_form{
+        width: 110px !important;
     }
-    .list-button-banner button.btn-more {
-        padding: 12px 57px;
+    .header .sub-header .logo{
+        min-width: 115px;
     }
-    .benefit .title-benefit p {
-        font-size: 30px;
+    select {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        text-indent: 1px;
+        text-overflow: '';
     }
-    .mt-80 {
-        margin-top: 40px;
+    .banner .form-hana .right .form select.hour_to{
+        padding-left: 40px !important;
     }
-    .benefit .carousel .carousel-inner .carousel-item {
-        padding: 0 40px;
+    .icon_hour_mobi{
+        margin-top: -10px !important;
     }
-    .benefit .carousel .carousel-inner .carousel-excerpt h5 {
+    .instruct {
+        border: 2px dashed lightskyblue;
+    }
+    .instruct .title_instruct{
+        width: 400px;
+    }
+    .instruct .title_instruct h3{
         font-size: 25px;
     }
-    .steps .title-steps {
-        font-size: 30px;
+    .testimonial .title_feedback h4{
+        font-size: 25px;
     }
-    .steps .list-steps .list-steps-item {
-        margin-bottom: 15px;
-    }
-    .title-process {
-        font-size: 30px;
-    }
-    .process .bottom-process .list-video-demo .list-video-item {
-        padding: 0 55px 30px 55px;
-    }
-    .process .list-intro-process {
-        padding: 0px 20px 30px 40px;
-    }
-    .testimonials p {
-        font-size: 21px;
-    }
-    .title-maxim {
-        width: 87%;
-        padding: 30px 0 40px 0;
-        font-size: 30px;
-    }
-    .main-maxim {
-        padding: 0 30px;
-    }
-    .maxim .button-it {
-        margin: 30px auto 60px;
-    }
-    .maxim .button-it button{
-        padding: 10px 20px !important;
-    }
-    .title-statistical {
-        font-size: 30px;
-    }
-    .img-may {
-        width: 95%;
-    }
-    .bg-testi p {
-        font-size: 22px;
-    }
-    .statistical #slide-testimonials span.img-action {
-        width: 35px;
-        height: 35px;
-    }
-    .statistical .img-slide-testi {
-        width: 65%;
-    }
-    .carousel-control-prev, .carousel-control-next {
-        bottom: 50px !important;
-    }
-    .statistical #slide-testimonials .carousel-item span {
-        bottom: 2%;
-    }
-    .statistical #slide-testimonials .carousel-item span {
-        font-size: 23px;
-    }
-    .statistical #slide-testimonials .carousel-item span.last-ps {
-        bottom: -9%;
-        padding: 0 40px;
-    }
-    .title-effective {
-        font-size: 30px;
-    }
-    .title-effective {
-        width: 90%;
-        font-size: 30px;
-    }
-    .effective {
-        width: 100%;
-    }
-    .effective .list-effective-mobile .effective-mobile-item {
-        width: 90%;
-        margin: auto;
-        padding-bottom: 20px;
-    }
-    .effective .list-effective-mobile .effective-mobile-item p {
-        font-size: 22px;
-    }
-    .time-remain .title-time {
-        font-size: 33px;
-        padding: 40px 0;
-        width: 90%;
-    }
-    .list-effective-mobile{
-        padding-bottom: 30px;
-    }
-    .time-remain .img-banner p {
-        width: 85%;
-    }
-    .time-remain .img-banner p span {
-       font-size: 25px;
-    }
-    .time-remain .clock .clock-number .list-item {
-        width: 95%;
-    }
-    .time-remain .clock .clock-number .item-box span {
-        font-size: 45px;
-    }
-    .time-remain .clock .clock-unit {
-        width: 95%;
-    }
-    .time-remain  .suathoc p {
-        width: 100%;
-    }
-    .rewals {
-        width: 85%;
-    }
-    .community .title-cmnt {
-        font-size: 30px;
-    }
-    .mauticform-row {
-        width: 90% !important;
-    }
+
 }
 
 @media (max-width: 500px) {
-    .statistical #slide-testimonials .carousel-item span.last-ps {
-        bottom: -13%;
-        padding: 0 24px;
+    .banner .form-hana .box-form{
+        padding: 5px 17px;
     }
-    .rewals .box-cmt {
-        top: -22%;
+    .banner .box-banner .title h1{
+        font-size: 33px;
     }
-    .rewals .box-rewal {
-        top: -29%;
+    .banner .form-hana .box-form .ct_form_hana .boxcar {
+        width: 50px;
+        height: 50px;
+    }
+    .banner .form-hana .box-form .ct_form_hana .box1 img {
+        margin-top: 17px;
+    }
+    .banner .form-hana .box-form .ct_form_hana .box2 img {
+        margin-top: 0;
+    }
+    .banner .form-hana .box-form .ct_form_hana .car h5 {
+        font-size: 14px;
+    }
+    .banner .form-hana .box-form .ct_form_hana .boxcar {
+        margin: 10px 0;
+    }
+    .banner .form-hana .right .form select{
+        font-size: 14px;
+    }
+    .banner .form-hana .right .form .fa-map-marker{
+        font-size: 18px !important;
+    }
+    .banner .form-hana .right .form form .form-group{
+        margin-right: 15px;
+    }
+    .banner .form-hana .button_form .search_hana{
+        font-size: 16px;
+        padding: 7px;
+    }
+    .banner .box-banner .title{
+        padding: 20px 0 0 0;
+    }
+    .instruct .title_instruct h3{
+        font-size: 20px;
+    }
+    .instruct .title_instruct{
+        width: 300px;
+    }
+    .banner_regis .text_regis{
+        width: 87%;
+    }
+    .banner_regis .text_regis h2{
+        margin-bottom: 20px;
+    }
+    .banner_regis .text_regis p{
+        font-size: 16px;
+    }
+    .testimonial .box .feedback{
+        margin-bottom: 50px;
+    }
+    #carouselYKKH{
+        width: 90% !important;
+        margin: auto;
+    }
+    .blogs .content_blog .des1 {
+        left: 3.5%;
+        width: 93%;
+    }
+    .blogs .text_blog h5 , .blogs .text_blog p {
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .blogs .content_blog img {
+        border-radius: 0;
+    }
+    .blogs {
+        margin: 53px auto 50px auto;
+    }
+    #carouselBlogs .more_blog a{
+        font-size: 14px;
+        line-height: 16px;
+        color: #777572;
     }
 }
 @media (max-width: 450px) {
-    .banner-intro {
-        background-size: cover;
-    }
-    .banner-intro .content-banner .txt-banner p.title-intro {
-        font-size: 40px;
-    }
-    .banner-intro .content-banner .txt-banner .sub-title-intro p {
-        font-size: 22px;
-    }
-    .banner-intro .content-banner .txt-banner .list-intro-banner {
-        width: 90%;
-    }
-    .banner-intro .content-banner .txt-banner .list-intro-banner p {
-        letter-spacing: 0.7px;
-    }
-    .list-button-banner a button.btn-free {
-        padding: 12px 30px;
-    }
-    .list-button-banner a button.btn-more {
-        padding: 12px 51px;
-    }
-    .mt-80 {
-        margin-top: 20px;
-    }
-    .benefit .title-benefit p {
-        font-size: 25px;
-    }
-    .benefit .carousel .carousel-indicators li {
-        margin: 0 8px;
-    }
-    .steps {
-        background-size: cover;
-    }
-    .steps .title-steps {
-        font-size: 25px;
-    }
-    .steps .list-steps .list-steps-item {
-        margin-bottom: 0;
-        padding: 0 30px 0 30px;
-    }
-    .title-process {
-        font-size: 25px;
-    }
-    .title-maxim {
-        font-size: 25px;
-    }
-    .title-statistical {
-        font-size: 25px;
-    }
-    .bg-testi p {
-        font-size: 20px;
-    }
-    .time-remain .title-time {
-        font-size: 25px;
-        padding: 40px 0 20px 0;
-        width: 90%;
-    }
-    .time-remain .clock .tll-clock {
-        padding: 0 30px 15px 30px;
-    }
-    .time-remain .clock .clock-number .item-box span {
-        font-size: 40px;
-    }
-    .community .title-cmnt {
-        font-size: 25px;
-    }
-    .title-effective {
-        width: 90%;
-        font-size: 25px;
-    }
-    .effective .list-effective-mobile .effective-mobile-item p {
-        font-size: 20px;
+    .car_section{
+        padding-top: 30px;
     }
 }
 @media (max-width: 400px) {
-    .banner-intro .content-banner .txt-banner p.title-intro {
-        font-size: 37px;
-    }
-    .banner-intro .content-banner .txt-banner .sub-title-intro p {
-        font-size: 20px;
-    }
-    .testimonials p {
-        font-size: 18px;
-    }
-    .maxim .button-it button {
-        padding: 10px 15px !important;
-        font-size: 20px;
-    }
-    .bg-testi p {
-        font-size: 18px;
-    }
-    .effective .list-effective-mobile .effective-mobile-item p {
-        font-size: 18px;
-    }
-    .time-remain .img-banner p {
-        font-size: 18px;
-    }
-    .time-remain .img-banner p span {
-        font-size: 22px;
-    }
-    .time-remain .clock .tll-clock {
-        font-size: 18px;
-    }
-    .time-remain .clock .clock-number .item-box span {
-        font-size: 37px;
-    }
-    .time-remain .form-regis {
-        padding-top: 20px;
-    }
-    .time-remain  .suathoc p {
-        font-size: 16px;
-    }
-    .time-remain {
-        background-size: cover;
-    }
-    .statistical #slide-testimonials .carousel-item span {
-        font-size: 18px;
+    .icon_hour_mobi{
+       padding-left: 15px;
     }
 }
