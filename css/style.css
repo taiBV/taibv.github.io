@@ -40,6 +40,9 @@ a:hover{
 .mt-100{
     margin-top: 100px;
 }
+.w-95{
+    width: 95%;
+}
 .header{
     background-color:#000000 ;
 }
@@ -749,7 +752,7 @@ element.style {
         padding-top: 20px;
     }
     .feature {
-        width: 90%;
+        width: 95%;
     }
     .position {
         width: 90%;
@@ -781,7 +784,7 @@ element.style {
     }
     .car_section .carousel-control-next{
         top: -30% !important;
-        right:-5% !important;
+        right:-7% !important;
         opacity: 0.9 !important;
     }
     .car_section .carousel-control-prev{
@@ -846,8 +849,8 @@ element.style {
         margin: 70px auto 50px auto;
     }
     .blogs .content_blog .des1 {
-        left: 2.5%;
-        width: 95%;
+        left: 0;
+        width: 100%;
     }
     #carouselBlogs .more_blog{
         padding-top: 20px;
@@ -910,6 +913,12 @@ element.style {
     .testimonial .title_feedback h4{
         font-size: 25px;
     }
+    .feature h5{
+        margin-left: 5px;
+    }
+    #carouselCar,#carouselCarLove,#carouselBlogs{
+        width: 95%;
+    }
 
 }
 
@@ -971,12 +980,8 @@ element.style {
         margin-bottom: 50px;
     }
     #carouselYKKH{
-        width: 90% !important;
+        width: 95% !important;
         margin: auto;
-    }
-    .blogs .content_blog .des1 {
-        left: 3.5%;
-        width: 93%;
     }
     .blogs .text_blog h5 , .blogs .text_blog p {
         font-size: 16px;
