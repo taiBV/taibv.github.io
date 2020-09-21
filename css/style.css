@@ -31,6 +31,9 @@
 header{
     font-family: "Roboto";
 }
+.hambuger{
+    font-size: 30px !important;
+}
 a:hover{
     text-decoration: none !important;
 }
@@ -602,6 +605,51 @@ element.style {
     border-radius: 5px 5px 0 0;
 }
 
+
+.partner_regis{
+    font-family: "Roboto";
+    background-image: url("/img/web/home/partner_regis.png");
+    background-size:cover;
+    height: 100%;
+}
+.partner_regis .form form{
+    width: 82%;
+}
+.partner_regis .form{
+    width: 30%;
+    background-color: #fff;
+    margin: auto;
+    border-radius: 15px;
+}
+.partner_regis .form .title{
+    padding-top: 37px;
+}
+.partner_regis .form .title h4{
+    font-weight: 700;
+    font-size: 27px;
+    color: #E5C300;
+}
+.partner_regis .form label{
+    font-weight: 300;
+    font-size: 18px;
+}
+.partner_regis .form input{
+   border-top: unset;
+   border-right: unset;
+   border-left: unset;
+    border-bottom: 1px solid #B9B9B9;
+}
+.partner_regis .form .btn_partner_regis{
+    background: #FBB200;
+    border-radius: 8px;
+    border-color: #FBB200;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 23px;
+    padding: 13px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
 
 
 
