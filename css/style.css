@@ -46,6 +46,33 @@ a:hover{
 .w-95{
     width: 95%;
 }
+
+.sub_menu_mobi{
+    display: none;
+    position: fixed;
+    width: 65%;
+    top: 0;
+    left: 0;
+    background: black;
+    height: 100%;
+    z-index: 1;
+    font-family: "Roboto";
+    opacity: 1;
+}
+.sub_menu_mobi ul{
+    list-style: none;
+}
+.sub_menu_mobi ul li{
+    padding-bottom: 15px;
+}
+.sub_menu_mobi .menu{
+    padding-top: 30px;
+}
+.sub_menu_mobi i.icon-close{
+   font-size: 25px;
+}
+
+
 .header{
     background-color:#000000 ;
 }
@@ -611,12 +638,14 @@ element.style {
     background-image: url("/img/web/home/partner_regis.png");
     background-size:cover;
     height: 100%;
+    background-repeat: no-repeat;
+    margin-top: 100px;
 }
 .partner_regis .form form{
     width: 82%;
 }
 .partner_regis .form{
-    width: 30%;
+    width: 100%;
     background-color: #fff;
     margin: auto;
     border-radius: 15px;
@@ -626,12 +655,13 @@ element.style {
 }
 .partner_regis .form .title h4{
     font-weight: 700;
-    font-size: 27px;
+    font-size: 25px;
     color: #E5C300;
 }
 .partner_regis .form label{
-    font-weight: 300;
-    font-size: 18px;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 0;
 }
 .partner_regis .form input{
    border-top: unset;
@@ -650,8 +680,63 @@ element.style {
     margin-top: 10px;
     margin-bottom: 20px;
 }
+.partner_regis .content{
+    padding: 40px 9% 40px 62%;
+}
+.partner_regis .form-control:focus{
+    box-shadow: unset;
+}
 
+footer .footer{
+    background-color:#141414 ;
+    font-family: "Roboto";
+    color: white;
+}
+footer .footer .ft_hana{
+    width: 80%;
+    padding: 60px 0 90px 0;
+}
+.footer .logo_ft{
+    width: 200px;
+    padding-bottom: 35px;
+}
+.footer .contact_ft span{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 23px;
+}
+.footer .contact_ft i{
+    font-size: 20px;
+    padding-right: 10px;
+}
+.footer .contact_ft .item_contact_ft{
+    padding-bottom: 15px;
+}
+.footer .linking ul{
+    list-style: none;
+}
+.footer .linking ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 23px;
+}
+.footer .ft_hana .title{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+}
+.footer ul li a{
 
+}
+.footer ul li:hover{
+    transform: scale(1.05);
+}
+.footer ul li{
+    padding-bottom: 15px;
+    transition: all .2s ease-in-out;
+}
 
 /* ============================================ Responsive ====================================== */
 /* responsive */
@@ -715,9 +800,11 @@ element.style {
         left: 3.5%;
         width: 93%;
     }
+    .partner_regis .content {
+        padding: 40px 9% 40px 60%;
+    }
 }
  /*MAIN*/
-
 
 @media (max-width: 992px) {
     .banner {
@@ -770,6 +857,15 @@ element.style {
     }
     .banner_regis .text_regis{
         width: 35%;
+    }
+    .partner_regis .content {
+        padding: 25px;
+    }
+    .partner_regis .form {
+        width: 50%;
+    }
+    .partner_regis{
+        margin-top: 70px;
     }
 }
 
@@ -915,6 +1011,16 @@ element.style {
     #carouselBlogs .carousel-indicators{
         bottom: -30%;
     }
+    .partner_regis .form {
+        width: 60%;
+    }
+    .partner_regis .form .title h4 {
+        font-size: 22px;
+    }
+    .partner_regis .form .btn_partner_regis {
+        font-size: 18px;
+        padding: 10px;
+    }
 }
 
 @media (max-width: 621px) {
@@ -966,6 +1072,9 @@ element.style {
     }
     #carouselCar,#carouselCarLove,#carouselBlogs{
         width: 95%;
+    }
+    .partner_regis .form {
+        width: 83%;
     }
 
 }
@@ -1045,6 +1154,18 @@ element.style {
         font-size: 14px;
         line-height: 16px;
         color: #777572;
+    }
+    .testimonial .title_feedback h4{
+        font-size: 20px;
+    }
+    .partner_regis .form {
+        width: 100%;
+    }
+    .partner_regis {
+        margin-top: 99px;
+    }
+    .partner_regis .content {
+        padding: 35px 25px;
     }
 }
 @media (max-width: 450px) {
