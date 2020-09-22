@@ -1,0 +1,84 @@
+.page_list_car{
+    font-family: "Roboto";
+    margin: 0 auto 100px auto;
+    width: 85%;
+
+}
+.page_list_car .head_list{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    margin-bottom: 15px;
+}
+.page_list_car .head_list .title{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #E5C300;
+}
+.page_list_car .head_list .ip_hana{
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
+}
+.page_list_car .head_list p{
+    border-bottom: 1px solid #DADADA;
+    padding: 20px 0px 0 0;
+    margin-left: 20px;
+}
+
+.page_list_car .content_list .left{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+.page_list_car .content_list .nav_hana{
+    padding :20px 15px;
+}
+.page_list_car .content_list .nav_hana .item_search{
+   margin-bottom: 1.5rem !important;
+}
+.page_list_car .content_list .left label{
+    font-weight: 700;
+    font-size: 16px;
+    padding-bottom: 5px;
+    line-height: 20px;
+    color: #000000;
+}
+.page_list_car .content_list .left select.form-control:focus {
+     border-color: unset !important;
+     box-shadow: unset !important;
+}
+.page_list_car .search{
+    margin-top: 50px;
+    width: 100%;
+}
+.page_list_car div.reset_rs{
+    margin-top: 20px !important;
+}
+.page_list_car .search button{
+    width: 100%;
+    border: 1px solid #E5C300;
+    border-radius: 5px;
+    background: #FFFFFF !important;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #E5C300;
+    padding: 10px;
+}
+.page_list_car .search button:focus{
+    box-shadow: unset !important;
+}
+.page_list_car .search button:hover{
+    background: #E5C300 !important;
+    color: #fff;
+    transition: ease 0.5s;
+}
+.page_list_car .content_list .right .list_hana_car{
+   width: 100%;
+}
+.info_general_search p{
+    margin-left: 37px !important;
+}
+.info_general_search i{
+   font-size: 20px !important;
+}

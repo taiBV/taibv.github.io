@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HaNa- Cùng bạn trên mọi hành trình </title>
     <link rel="stylesheet" href="css/style.css?v=5">
+    <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="plugins/fontawesome-free-5.12.0-web/css/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -140,7 +141,7 @@
                                                 </div>
                                                 <div class="form-group col-3">
                                                     <select class="form-control town">
-                                                        <option selected>Xã , Thị trấn</option>
+                                                        <option selected>Phường , Xã</option>
                                                         <option>...</option>
                                                     </select>
                                                 </div>
@@ -163,7 +164,7 @@
                                                 </div>
                                                 <div class="form-group col-3">
                                                     <select class="form-control town">
-                                                        <option selected>Xã , Thị trấn</option>
+                                                        <option selected>Phường , Xã</option>
                                                         <option>...</option>
                                                     </select>
                                                 </div>
@@ -275,7 +276,7 @@
                 </div>
                 <div class="list-position m-auto row d-md-flex d-none">
                     <div class="img_position col-sm-6 mb-3 mb-lg-0 position-relative">
-                        <img class="w-100 lazyload"  data-src="img/web/home/feature4.png" alt="Xe tiện chuyến hà nội nam định" title="Xe tiện chuyến hà nội nam định">
+                        <img class="w-100 lazyload"  data-src="img/web/home/hanoi.jpg" alt="Xe tiện chuyến hà nội nam định" title="Xe tiện chuyến hà nội nam định">
                         <div class="text position-absolute text-white">
                             <h5>Hà Nội</h5>
                             <p class="mb-0">300+ xe</p>
@@ -283,9 +284,9 @@
                         </div>
                     </div>
                     <div class="img_position col-sm-6 mb-3 mb-lg-0 position-relative">
-                        <img class="w-100 lazyload"  data-src="img/web/home/feature4.png" alt="Xe tiện chuyến hà nội nam định" title="Xe tiện chuyến hà nội nam định">
+                        <img class="w-100 lazyload"  data-src="img/web/home/namdinh.jpg" alt="Xe tiện chuyến hà nội nam định" title="Xe tiện chuyến hà nội nam định">
                         <div class="text position-absolute text-white">
-                            <h5>Hà Nội</h5>
+                            <h5>Nam Định</h5>
                             <p class="mb-0">300+ xe</p>
                             <p class="mb-0">30+ chuyến/ngày</p>
                         </div>
@@ -301,7 +302,7 @@
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <div class="img_position mb-3 mb-lg-0 position-relative">
-                                    <img class="w-100 lazyload"  data-src="img/web/home/feature4.png" alt="Xe tiện chuyến hà nội nam định" title="Xe tiện chuyến hà nội nam định">
+                                    <img class="w-100 lazyload"  data-src="img/web/home/hanoi.jpg" alt="Xe tiện chuyến hà nội nam định" title="Xe tiện chuyến hà nội nam định">
                                     <div class="text position-absolute text-white">
                                         <h5>Hà Nội</h5>
                                         <p class="mb-0">300+ xe</p>
@@ -311,9 +312,9 @@
                             </div>
                             <div class="carousel-item">
                                 <div class="img_position mb-3 mb-lg-0 position-relative">
-                                    <img class="w-100 lazyload"  data-src="img/web/home/feature4.png" alt="Xe tiện chuyến hà nội nam định" title="Xe tiện chuyến hà nội nam định">
+                                    <img class="w-100 lazyload"  data-src="img/web/home/namdinh.jpg" alt="Xe tiện chuyến hà nội nam định" title="Xe tiện chuyến hà nội nam định">
                                     <div class="text position-absolute text-white">
-                                        <h5>Hà Nội</h5>
+                                        <h5>Nam Định</h5>
                                         <p class="mb-0">300+ xe</p>
                                         <p class="mb-0">30+ chuyến/ngày</p>
                                     </div>
@@ -546,7 +547,6 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
@@ -922,29 +922,9 @@
 <script src="plugins/js/jquery-3.2.1.min.js"></script>
 <script src="plugins/bootstrap/bootstrap.min.js"></script>
 <script src="plugins/jquery-ui-1.12.1/jquery-ui.js"></script>
+<script src="js/index.js"></script>
 <script>
-    $( function() {
-        lazyload();
-        $( "#datepicker" ).datepicker({
-            dateFormat: 'dd-mm-yy',
-        });
-        $( "#datepicker" ).datepicker().datepicker("setDate", new Date());
-        $(".hambuger").click(function () {
-            $("body").css({overflow:'hidden'});
-            $(".banner").css({opacity:'0.7'});
-            $(".header").css({background:'#2B3233'});
-            $(".sub_menu_mobi").toggle("slide");
-        })
-        $(".icon-close").click(function () {
-            $("body").css({overflow:'scroll'});
-            $(".sub_menu_mobi").toggle("slide");
-            $(".banner").css({opacity:'1'});
-            $(".header").css({background:'#000'});
-        })
-    } );
-    $('.carousel').carousel({
-        interval: false,
-    });
+
 </script>
 <script src="/plugins/lazyload/lazyload.js"></script>
 </body>
