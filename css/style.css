@@ -474,7 +474,7 @@ a:hover{
 .list-car .img_car {
     padding: 0 7px;
 }
-.info_car .star {
+.star {
     background: linear-gradient(to right,#fc3 70%,#ccc 70%);
     color: transparent;
     font-size: 25px;
@@ -740,3 +740,4 @@ footer .footer .ft_hana{
     padding-bottom: 15px;
     transition: all .2s ease-in-out;
 }
+

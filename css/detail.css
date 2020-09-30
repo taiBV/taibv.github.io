@@ -1,0 +1,131 @@
+.detail_hana{
+    font-family:"Roboto";
+}
+.detail_hana .banner{
+    margin-bottom: 40px;
+}
+.detail_hana .content_detail .info_car{
+    width: 85%;
+    margin:40px auto 40px auto;
+}
+.detail_hana .content_detail h2{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+}
+.detail_hana .content_detail .info_car h4{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+    color: #E5C300;
+}
+.detail_hana .content_detail .info_car span.unit_price{
+    font-weight: 500;
+    font-size: 20px;
+    color: #000;
+}
+.detail_hana .content_detail .btn_booking{
+    background: #E5C300;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 320px;
+    color: #fff;
+}
+.detail_hana .content_detail .info_car ul{
+    list-style: none;
+    padding-left: 0;
+}
+.detail_hana .content_detail .info_car ul li{
+    margin-bottom: 15px;
+}
+.detail_hana .content_detail .info_car .list_info{
+    /*margin-top: 20px;*/
+}
+.detail_hana .content_detail .info_car .list_info img{
+    width: 20px;
+    height: 20px;
+}
+.detail_hana .content_detail .info_car h5{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #A9AAAD;
+    margin-bottom: 20px;
+}
+.detail_hana .content_detail .info_car .top_title{
+    margin-bottom: 45px;
+}
+
+.detail_hana .content_detail .info_driver{
+    width: 85%;
+    margin:40px auto 40px auto;
+}
+.detail_hana .info_driver .ratio{
+    border-bottom: 1px solid lightgray;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.detail_hana .info_driver .avatar{
+    width: 150px;
+    padding-right: 27px;
+}
+
+.detail_hana .info_driver .avatar img{
+    width: 100%;
+    border-radius: 50%;
+}
+.detail_hana .info_driver .name h5{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+}
+.detail_hana .info_driver .box_driver{
+    border: 1px solid #E5C300;
+}
+.detail_hana .info_driver .box_driver .title_info{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #A9AAAD;
+    background: white;
+    width: 100px;
+    top: -5%;
+    left: 2%;
+}
+.detail_hana .info_driver .box_driver .title_info{
+    color: #A9AAAD;
+    background: white;
+    width: 100px;
+    top: -5%;
+    left: 2%;
+}
+.detail_hana .info_driver .box_driver .title_contact{
+    width: 20%;
+    bottom: -8%;
+    left: 2%;
+    background: #E5C300;
+}
+.detail_hana .info_driver .box_driver .title_contact button{
+    background: #E5C300;
+    border-radius: 5px;re
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #fff;
+}
+.comment_fb_hana{
+    width: 85%;
+    margin: 80px auto 50px auto;
+}
+.comment_fb_hana h5{
+    font-size: 22px;
+    line-height: 26px;
+}
+.car_page_detail{
+    width: 85% !important;
+    padding-bottom: 100px;
+}

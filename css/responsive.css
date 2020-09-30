@@ -70,6 +70,20 @@
     .page_list_car .head_list .ip_hana{
         font-size: 14px;
     }
+
+    .detail_hana .content_detail h2{
+        font-size: 25px;
+    }
+    .detail_hana .content_detail .info_car h4{
+        font-size: 25px;
+    }
+    .detail_hana .content_detail .btn_booking {
+        font-size: 18px;
+        width: 290px;
+    }
+    .comment_fb_hana h5 {
+        font-size: 20px;
+    }
 }
 /*MAIN*/
 
@@ -151,6 +165,15 @@
     .page_list_car .content_list .right{
        padding-left: 0 !important;
        padding-right: 0 !important;
+    }
+    .detail_hana .content_detail h2 {
+        font-size: 20px;
+    }
+    .detail_hana .content_detail .info_car h4 {
+        font-size: 20px;
+    }
+    .detail_hana .content_detail .btn_booking {
+        width: 230px;
     }
 }
 
@@ -322,6 +345,28 @@
     .page_list_car .head_list .info_detail_search{
         display: none;
     }
+    .detail_hana .content_detail .btn_booking{
+        width: 100%;
+    }
+    .detail_hana .content_detail .info_car h5{
+        color: #000;
+    }
+    .detail_hana .info_driver .box_driver .left{
+        margin-bottom: 20px;
+    }
+    .detail_hana .info_driver .box_driver .title_contact{
+        bottom: -5%;
+    }
+    .detail_hana .info_driver .box_driver .title_info {
+        top: -4%;
+    }
+    .detail_hana .info_driver .box_driver .title_contact button {
+        font-weight: 600;
+        font-size: 18px;
+    }
+    .detail_hana .info_driver .box_driver .title_contact{
+        width: 30%;
+    }
 }
 
 @media (max-width: 621px) {
@@ -377,7 +422,24 @@
     .partner_regis .form {
         width: 83%;
     }
-
+    .detail_hana .info_driver .name h5{
+        font-size: 18px;
+    }
+    .detail_hana .info_driver .ratio p{
+        margin-bottom: 0;
+    }
+    .detail_hana .info_driver .box_driver .title_contact{
+        width: 40%;
+    }
+    .detail_hana .content_detail .info_car{
+        width: 90%;
+    }
+    .detail_hana .content_detail .info_driver{
+        width: 90%;
+    }
+    .comment_fb_hana{
+        width: 90%;
+    }
 }
 
 @media (max-width: 500px) {
