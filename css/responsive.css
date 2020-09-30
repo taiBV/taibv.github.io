@@ -429,7 +429,7 @@
         margin-bottom: 0;
     }
     .detail_hana .info_driver .box_driver .title_contact{
-        width: 40%;
+        width: 50%;
     }
     .detail_hana .content_detail .info_car{
         width: 90%;
@@ -439,6 +439,15 @@
     }
     .comment_fb_hana{
         width: 90%;
+    }
+    .detail_hana .content_detail .info_car{
+        margin:20px auto 20px auto;
+    }
+    .detail_hana .content_detail .info_car span.unit_price{
+        font-size: 16px;
+    }
+    .detail_hana .content_detail .info_car .top_title{
+        margin-bottom: 20px;
     }
 }
 
@@ -537,6 +546,7 @@
         font-size: 16px;
         line-height: 20px;
     }
+
 }
 @media (max-width: 450px) {
     .car_section{
