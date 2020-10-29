@@ -264,7 +264,9 @@ header .hambuger img{
     font-weight: 600;
 
 }
-
+.content-about h5{
+    font-weight: 500;
+}
 .bg-grey{
     background: lightgrey;
 }
