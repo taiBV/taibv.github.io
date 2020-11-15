@@ -1,0 +1,383 @@
+@font-face {
+    font-family: "Roboto";
+    src: url(/fonts/Roboto/Roboto-Light.ttf);
+    font-weight: 300;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url(/fonts/Roboto/Roboto-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url(/fonts/Roboto/Roboto-Medium.ttf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url(/fonts/Roboto/Roboto-Bold.ttf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url(/fonts/Montserrat/Montserrat-Bold.ttf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url(/fonts/Roboto/Roboto-Black.ttf);
+    font-weight: 900;
+}
+header{
+    font-family: "Roboto";
+}
+.hambuger{
+    font-size: 30px !important;
+}
+.text-blue{
+    color: #007bff !important;
+}
+.bg-yellow{
+    background-color: #DDDF3C !important;
+}
+a:hover{
+    text-decoration: none !important;
+}
+.w-87{
+    width: 87%;
+}
+.mt-100{
+    margin-top: 100px;
+}
+.w-95{
+    width: 95%;
+}
+
+.sub_menu_mobi{
+    display: none;
+    position: fixed;
+    width: 50%;
+    top: 0;
+    left: 0;
+    background: #282E2F;
+    height: 100%;
+    z-index: 1;
+    font-family: "Roboto";
+    opacity: 1;
+}
+.sub_menu_mobi ul{
+    list-style: none;
+}
+.sub_menu_mobi ul li{
+    padding-bottom: 15px;
+}
+.sub_menu_mobi .menu{
+    padding-top: 30px;
+}
+.sub_menu_mobi i.icon-close{
+   font-size: 25px;
+}
+
+
+.header{
+    background-color:#282E2F ;
+}
+.header .sub-header .box-logo{
+    width: 20%;
+}
+.header .sub-header .logo{
+    max-width: 130px;
+}
+.header .sub-header .logo label.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+.header .sub-header .logo .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.header .sub-header .logo .switch .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:#6E6E6E;
+    transition: .4s;
+}
+
+.header .sub-header .logo .switch .slider:before { 
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: .4s;
+}
+
+.header .sub-header .logo .switch input:checked + .slider {
+    background-color:#47cf73;
+}
+  
+.header .sub-header .logo .switch input:checked + .slider:before {
+    transform: translateX(26px);
+}
+
+.header .sub-header .logo .switch  .slider.round {
+    border-radius: 34px;
+}
+
+.header .sub-header .logo .switch  .slider.round:before {
+    border-radius: 50%;
+}
+.header .sub-header .logo .fa-bolt {
+    font-size: 21px;
+    margin-top: -7px;
+    margin-right: 10px;
+}
+#changePositionLive .modal{
+    width: 90%;
+    margin: auto;
+}
+#changePositionLive h5.modal-title{
+    font-size: 17px;
+}
+.cur-position {
+    border: 1px solid lightgrey;
+}
+.header .sub-header{
+    padding: 8px 0;
+}
+.header .sub-header .contact-header{
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 400;
+    width: 45%;
+}
+.header .sub-header .contact-header .phone{
+    width: 25%;
+}
+.header .sub-header .contact-header .phone img{
+    width: 20px;
+}
+.header .sub-header .contact-header .facebook{
+    width: 25%;
+}
+.header .sub-header .contact-header .facebook img{
+    width: 23px;
+    margin-top: -2px;
+}
+.header .sub-header .sign-in .introduct img{
+    width: 24px;
+    margin-top: -2px;
+}
+.header .sub-header .contact-header .email{
+    width: 40%;
+}
+.header .sub-header .contact-header .email img{
+    width: 25px
+}
+.header .sub-header .sign-in{
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 400;
+    width: 35%;
+}
+.header .sub-header .sign-in .introduct{
+    width:40%
+}
+.header .sub-header .sign-in .login{
+    /*margin-right: 43px;*/
+    width: 30%
+}
+.header .sub-header .sign-in .register{
+    /*border: 2px solid #FFFFFF;*/
+    /*box-sizing: border-box;*/
+    width:30%
+}
+.header .sub-header .sign-in .register a{
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    padding: 12px 22px;
+}
+
+header .hambuger{
+    width: 60px;
+    height: 60px;
+}
+header .hambuger img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.title-driver{
+    margin-top: 100px;
+}
+
+.form-login{
+    width: 80%;
+    margin: 20px auto;
+}
+.form-login input.phone,.form-login input.password,
+.form-login input.date,
+.form-login input.marker{
+    border-radius: 0 !important;
+    height: 45px;
+}
+.form-login input.date{
+    border-radius: 0 !important;
+    height: 45px;
+    border: 1px solid lightgrey;
+}
+.form-login select.hours{
+    border-radius: 0 !important;
+    height: 45px;
+    border: 1px solid lightgrey;
+}
+.form-login select.hours option{
+    border-radius: 0 !important;
+    height: 45px;
+    border: 1px solid lightgrey;
+} 
+.form-login select.hours .option{
+    width: 30px;
+}
+.form-login .box-icon{
+    width: 40px;
+    padding: 12px 13px;
+    height: 45px;
+    background-color: lightgray;
+}
+.form-login button{
+    background-color: #282E2F;
+    border-color: #282E2F;
+    width: 100%;
+    height: 45px;
+}
+.content_trips .list_trip{
+    width: 95%;
+    margin: 30px auto;
+}
+.content_trips .list_trip .trip-item{
+   background-color: #fff;
+   border-radius: 5px;
+   border-bottom: 1px dashed;
+}
+.content_trips .btn_accept{
+    background-color: #DDDF3C;
+    color: black;
+    font-weight: 600;
+    height: 45px;
+}
+.content_trips .btn_accepted_success{
+    background-color: green;
+    color: white;
+}
+.content_trips .btn_accept:hover{
+    background-color: #000;
+    color: white;
+}
+.content_trips .bottom .customer_infor i{
+    width: 25px;
+}
+.content_trips .customer_infor .obj_infor{
+    padding-bottom: 10px;
+}
+.content_trips .trip-item .btn-price{
+    color: tomato;
+    border-color: tomato;
+}
+.content_trips .trip-item .btn-trip-full{
+    color: green;
+    border-color: green;
+}
+.content_trips .trip-item .time{
+    font-weight: 18px;
+}
+/* .content_trips .bottom .customer_infor .phone i{
+    width: 20px !important;
+} */
+.content_trips .sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.content_trips .sticky + .content {
+  padding-top: 102px;
+}
+.trips_history{
+
+}
+.trips_history .list_trip .trip-item{
+    border-bottom: 1px dashed;
+}
+.trips_history .list_trip .trip-item .trip-success{
+    color: green !important;
+    font-weight: 700;
+}
+
+.trips_history .list_trip .customer_infor i{
+    width: 25px;
+}
+
+.trips_history .list_trip .btn-price-history{
+    /* background-color: green; */
+    color: green;
+    font-weight: 600;
+
+}
+.content-about h5{
+    font-weight: 500;
+}
+.bg-grey{
+    background: lightgrey;
+}
+.w-90{
+    width: 90%;
+}
+.content-about .block-info .title{
+   
+    height: 45px;
+}
+.content-about .block-info .title h5{
+    padding-top: 12px;
+}
+
+.sub_menu_mobi ul li a{
+    color:white;
+}
+
+footer{
+    width: 100%;
+    margin: auto;
+    background-color: lightgrey;
+    bottom: 0;
+}
+footer a{
+    color: #282E2F;
+}
+footer .content_ft{
+    width: 90%;
+    margin: auto;
+    padding: 7px;
+}
+footer ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+footer i{
+    font-size: 30px !important;
+}
+footer li i.active{
+    color: brown;
+}

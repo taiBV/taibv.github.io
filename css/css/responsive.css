@@ -1,0 +1,560 @@
+
+@media (max-width: 1800px) {
+
+}
+
+@media (max-width: 1440px) {
+    .banner .box-banner .title {
+        padding: 30px 0 10px 0;
+    }
+    .banner .box-banner {
+        padding-bottom: 35px;
+    }
+}
+@media (max-width: 1350px) {
+    .banner .box-banner {
+        width: 85%;
+    }
+}
+@media (max-width: 1200px) {
+    .w-87{
+        width: 90%;
+    }
+    .header .sub-header .contact-header .email{
+        display: none;
+    }
+    .header .sub-header .contact-header .facebook {
+        width: 40%;
+    }
+    .header .sub-header .contact-header .phone {
+        width: 40%;
+    }
+    .header .sub-header .sign-in .introduct {
+        display: none;
+    }
+    .header .sub-header .sign-in .register {
+        width: 40%;
+    }
+    .header .sub-header .sign-in .login {
+        width: 30%;
+    }
+    .header .sub-header .contact-header {
+        margin-left: 100px;
+    }
+    .banner .box-banner {
+        width: 85%;
+    }
+    .banner .form-hana .box-form .ct_form_hana {
+        width: 100%;
+    }
+    .banner_regis .text_regis h2{
+        font-size:30px;
+        line-height: 40px;
+    }
+    .testimonial .content{
+        width: 95%;
+    }
+    .blogs .content_blog .des1 {
+        left: 3.5%;
+        width: 93%;
+    }
+    .partner_regis .content {
+        padding: 40px 9% 40px 60%;
+    }
+    .page_list_car{
+        width: 90%;
+    }
+    .page_list_car .head_list .title{
+        font-size: 14px;
+    }
+    .page_list_car .head_list .ip_hana{
+        font-size: 14px;
+    }
+
+    .detail_hana .content_detail h2{
+        font-size: 25px;
+    }
+    .detail_hana .content_detail .info_car h4{
+        font-size: 25px;
+    }
+    .detail_hana .content_detail .btn_booking {
+        font-size: 18px;
+        width: 290px;
+    }
+    .comment_fb_hana h5 {
+        font-size: 20px;
+    }
+}
+/*MAIN*/
+
+@media (max-width: 992px) {
+    .banner {
+        background-position: center;
+    }
+    .banner .form-hana .left{
+        width: 100%;
+    }
+    .banner .form-hana .right{
+        width: 100%;
+    }
+    .banner .form-hana .left .car{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        background: rgba(0, 0, 0, 0.4);
+    }
+    .banner .form-hana .box-form .ct_form_hana .boxcar{
+        margin:20px 0;
+    }
+    .banner .form-hana .box-form .ct_form_hana .car h5{
+        font-size: 20px;
+        margin-top: 0;
+        margin-left: 20px;
+    }
+    .banner .form-hana .left .active{
+        border-bottom: 3px solid #fff;
+        border-right: 0;
+        background: rgba(0, 0, 0, 0.8);
+    }
+    .banner .form-hana{
+        background:unset;
+    }
+    .banner .form-hana .box-form .ct_form_hana .button_form{
+        padding-bottom: 30px;
+    }
+    .position {
+        width: 85%;
+        padding-top: 70px;
+    }
+    .banner_regis .text_regis h2 {
+        font-size: 25px;
+        line-height: 35px;
+        margin-bottom: 10px;
+    }
+    .banner_regis .text_regis p{
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    .banner_regis .text_regis{
+        width: 35%;
+    }
+    .partner_regis .content {
+        padding: 25px;
+    }
+    .partner_regis .form {
+        width: 50%;
+    }
+    .partner_regis{
+        margin-top: 70px;
+    }
+    .page_list_car .head_list .title{
+        font-size: 16px;
+    }
+    .page_list_car .head_list .ip_hana{
+        font-size: 16px;
+    }
+    .page_list_car .head_list p{
+        margin-bottom: 0;
+        padding:15px 0 15px 0;
+    }
+    .list_hana_car{
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    .page_list_car .content_list .right{
+       padding-left: 0 !important;
+       padding-right: 0 !important;
+    }
+    .detail_hana .content_detail h2 {
+        font-size: 20px;
+    }
+    .detail_hana .content_detail .info_car h4 {
+        font-size: 20px;
+    }
+    .detail_hana .content_detail .btn_booking {
+        width: 230px;
+    }
+}
+
+@media (max-width: 768px) {
+    .banner .box-banner{
+        width: 100%;
+    }
+    .banner .form-hana .box-form {
+        padding: 5px 31px;
+    }
+    .banner .box-banner .title h1{
+        font-size: 42px;
+    }
+    .banner .form-hana .box-form .ct_form_hana .boxcar {
+        width: 70px;
+        height: 70px;
+    }
+    .banner .form-hana .box-form .ct_form_hana .boxcar {
+        margin: 15px 0;
+    }
+    .banner .form-hana .box-form .ct_form_hana .car h5{
+        font-size: 18px;
+    }
+    .feature {
+        padding-top: 50px;
+    }
+    .feature .list-feature {
+        padding-top: 20px;
+    }
+    .feature {
+        width: 95%;
+    }
+    .position {
+        width: 90%;
+        padding-top: 50px;
+        padding-bottom:30px
+    }
+    .position .img_position{
+        padding:0 !important;
+    }
+    .banner_regis img{
+        display: none;
+    }
+    .banner_regis{
+        background-image: url("/img/web/home/banner_regis.png");
+        background-size: cover;
+    }
+
+    .banner_regis .text_regis {
+        position: unset !important;
+        width: 70%;
+        margin: auto;
+        top: 0;
+        right: 0;
+        transform: unset;
+        padding-bottom: 50px;
+    }
+    .car_section {
+        width: 95%;
+    }
+    .car_section .carousel-control-next{
+        top: -30% !important;
+        right:-7% !important;
+        opacity: 0.9 !important;
+    }
+    .car_section .carousel-control-prev{
+        top: -30% !important;
+        left: -7% !important;
+        opacity: 0.9 !important;
+    }
+    .car_section .div-icon-next {
+        width: 25px;
+        height: 25px;
+        background: #E5C300;
+        border-radius: 50%;
+
+    }
+    .car_section {
+        padding-top: 50px;
+    }
+    .mt-100{
+        margin-top: 0;
+    }
+    .testimonial .title_feedback{
+        margin: auto;
+    }
+    .testimonial .box{
+        padding-top: 65px;
+    }
+    .testimonial .box .feedback{
+        margin-bottom: 70px;
+    }
+    #carouselYKKH{
+        width: 80% !important;
+        margin: auto;
+    }
+    .carousel-indicators li{
+        width: 10px !important;
+        height: 10px !important;
+        border-radius: 50%;
+        margin-right: 10px !important;
+    }
+    .carousel-indicators .active{
+        background-color:#E5C300 !important ;
+        width: 12px !important;
+        height: 12px !important;
+    }
+    .testimonial .div-icon-next {
+        width: 25px;
+        height: 25px;
+        background: #E5C300;
+        border-radius: 50%;
+    }
+    .carousel-control-next, .carousel-control-prev{
+        opacity: 0.9 !important;
+    }
+    .carousel-control-prev{
+        left: -4% !important;
+    }
+    .carousel-control-next{
+        right: -4% !important;
+    }
+    .blogs {
+        width: 95%;
+        margin: 70px auto 50px auto;
+    }
+    .blogs .content_blog .des1 {
+        left: 0;
+        width: 100%;
+    }
+    #carouselBlogs .more_blog{
+        padding-top: 20px;
+    }
+    #carouselBlogs .more_blog a{
+        font-size: 14px;
+        line-height: 16px;
+        color: #777572;
+        text-decoration: underline;
+    }
+    #carouselBlogs .carousel-indicators li{
+        background-color: #D4D4D4 ;
+    }
+    #carouselBlogs .carousel-indicators{
+        bottom: -30%;
+    }
+    .partner_regis .form {
+        width: 60%;
+    }
+    .partner_regis .form .title h4 {
+        font-size: 22px;
+    }
+    .partner_regis .form .btn_partner_regis {
+        font-size: 18px;
+        padding: 10px;
+    }
+    .page_list_car{
+        width: 100%;
+    }
+    .page_list_car .head_list .title{
+        font-size: 14px;
+    }
+    .page_list_car .head_list .ip_hana{
+        font-size: 14px;
+    }
+    .page_list_car .content_list{
+        width: 95%;
+        margin: auto;
+    }
+    .page_list_car .head_list .info_detail_search{
+        display: none;
+    }
+    .detail_hana .content_detail .btn_booking{
+        width: 100%;
+    }
+    .detail_hana .content_detail .info_car h5{
+        color: #000;
+    }
+    .detail_hana .info_driver .box_driver .left{
+        margin-bottom: 20px;
+    }
+    .detail_hana .info_driver .box_driver .title_contact{
+        bottom: -5%;
+    }
+    .detail_hana .info_driver .box_driver .title_info {
+        top: -4%;
+    }
+    .detail_hana .info_driver .box_driver .title_contact button {
+        font-weight: 600;
+        font-size: 18px;
+    }
+    .detail_hana .info_driver .box_driver .title_contact{
+        width: 30%;
+    }
+}
+
+@media (max-width: 621px) {
+
+}
+
+@media (max-width: 576px) {
+    .banner .box-banner .title h1{
+        font-size: 35px;
+    }
+    .banner .form-hana .right .form select.province{
+        width: 110px !important
+    }
+    .banner .form-hana .right .form select.distinct{
+        width: 125px !important;
+    }
+    .banner .form-hana .date_form{
+        width: 110px !important;
+    }
+    .header .sub-header .logo{
+        min-width: 115px;
+    }
+    select {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        text-indent: 1px;
+        text-overflow: '';
+    }
+    .banner .form-hana .right .form select.hour_to{
+        padding-left: 40px !important;
+    }
+    .icon_hour_mobi{
+        margin-top: -10px !important;
+    }
+    .instruct {
+        border: 2px dashed lightskyblue;
+    }
+    .instruct .title_instruct{
+        width: 400px;
+    }
+    .instruct .title_instruct h3{
+        font-size: 25px;
+    }
+    .testimonial .title_feedback h4{
+        font-size: 25px;
+    }
+    .feature h5{
+        margin-left: 5px;
+    }
+    #carouselCar,#carouselCarLove,#carouselBlogs{
+        width: 95%;
+    }
+    .partner_regis .form {
+        width: 83%;
+    }
+    .detail_hana .info_driver .name h5{
+        font-size: 18px;
+    }
+    .detail_hana .info_driver .ratio p{
+        margin-bottom: 0;
+    }
+    .detail_hana .info_driver .box_driver .title_contact{
+        width: 50%;
+    }
+    .detail_hana .content_detail .info_car{
+        width: 90%;
+    }
+    .detail_hana .content_detail .info_driver{
+        width: 90%;
+    }
+    .comment_fb_hana{
+        width: 90%;
+    }
+    .detail_hana .content_detail .info_car{
+        margin:20px auto 20px auto;
+    }
+    .detail_hana .content_detail .info_car span.unit_price{
+        font-size: 16px;
+    }
+    .detail_hana .content_detail .info_car .top_title{
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 500px) {
+    .banner .form-hana .box-form{
+        padding: 5px 17px;
+    }
+    .banner .box-banner .title h1{
+        font-size: 33px;
+    }
+    .banner .form-hana .box-form .ct_form_hana .boxcar {
+        width: 50px;
+        height: 50px;
+    }
+    .banner .form-hana .box-form .ct_form_hana .box1 img {
+        margin-top: 17px;
+    }
+    .banner .form-hana .box-form .ct_form_hana .box2 img {
+        margin-top: 0;
+    }
+    .banner .form-hana .box-form .ct_form_hana .car h5 {
+        font-size: 14px;
+    }
+    .banner .form-hana .box-form .ct_form_hana .boxcar {
+        margin: 10px 0;
+    }
+    .banner .form-hana .right .form select{
+        font-size: 14px;
+    }
+    .banner .form-hana .right .form .fa-map-marker{
+        font-size: 18px !important;
+    }
+    .banner .form-hana .right .form form .form-group{
+        margin-right: 15px;
+    }
+    .banner .form-hana .button_form .search_hana{
+        font-size: 16px;
+        padding: 7px;
+    }
+    .banner .box-banner .title{
+        padding: 20px 0 0 0;
+    }
+    .instruct .title_instruct h3{
+        font-size: 20px;
+    }
+    .instruct .title_instruct{
+        width: 300px;
+    }
+    .banner_regis .text_regis{
+        width: 87%;
+    }
+    .banner_regis .text_regis h2{
+        margin-bottom: 20px;
+    }
+    .banner_regis .text_regis p{
+        font-size: 16px;
+    }
+    .testimonial .box .feedback{
+        margin-bottom: 50px;
+    }
+    #carouselYKKH{
+        width: 95% !important;
+        margin: auto;
+    }
+    .blogs .text_blog h5 , .blogs .text_blog p {
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .blogs .content_blog img {
+        border-radius: 0;
+    }
+    .blogs {
+        margin: 53px auto 50px auto;
+    }
+    #carouselBlogs .more_blog a{
+        font-size: 14px;
+        line-height: 16px;
+        color: #777572;
+    }
+    .testimonial .title_feedback h4{
+        font-size: 20px;
+    }
+    .partner_regis .form {
+        width: 100%;
+    }
+    .partner_regis {
+        margin-top: 99px;
+    }
+    .partner_regis .content {
+        padding: 35px 25px;
+    }
+    .position .list-position .text h5 {
+        font-size: 22px;
+    }
+    .position .list-position .text p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+}
+@media (max-width: 450px) {
+    .car_section{
+        padding-top: 30px;
+    }
+}
+@media (max-width: 400px) {
+    .icon_hour_mobi {
+        padding-left: 15px;
+    }
+}
