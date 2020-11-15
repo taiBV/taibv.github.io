@@ -50,10 +50,10 @@ a:hover{
 .sub_menu_mobi{
     display: none;
     position: fixed;
-    width: 50%;
+    width: 100%;
     top: 0;
     left: 0;
-    background: #282E2F;
+    background: black;
     height: 100%;
     z-index: 1;
     font-family: "Roboto";
@@ -74,7 +74,7 @@ a:hover{
 
 
 .header{
-    background-color:#282E2F ;
+    background-color:#000000 ;
 }
 .header .sub-header .box-logo{
     width: 20%;
@@ -138,175 +138,606 @@ a:hover{
     padding: 12px 22px;
 }
 
-header .hambuger{
-    width: 60px;
-    height: 60px;
+.banner {
+    background-image: url("/img/web/home/banner.png");
+    background-size:cover;
+    height: 100%;
 }
-header .hambuger img{
+.banner .box-banner{
+    width: 68%;
+    margin: auto;
+    padding-bottom: 130px;
+}
+.banner .box-banner .title {
+    padding: 50px 0 25px 0;
+}
+
+.banner .form-hana .left{
+    width: 30%;
+    /*margin: auto;*/
+    /*text-align: center;*/
+}
+.banner .form-hana .left .active{
+    background-color: rgba(0, 0, 0, 0.4);
+    border-right: 3px solid #fff;
+}
+.banner .form-hana .right{
+    width: 70%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.banner .form-hana{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.banner .form-hana .box-form{
+    padding: 31px 0;
+}
+.banner .form-hana .box-form .ct_form_hana{
+    width: 92%;
+    margin: auto;
+}
+.banner .form-hana .box-form .ct_form_hana .boxcar{
+    width: 86px;
+    height: 86px;
+    border-radius: 50%;
+    background: #fff;
+    margin: 40px auto;
+}
+.banner .form-hana .box-form .ct_form_hana .car h5{
+   font-size: 15px;
+    font-weight: 400;
+    line-height: 17px;
+    font-family: "Roboto";
+    margin-top: -20px;
+}
+.banner .form-hana .box-form .ct_form_hana .box1 img{
+   margin-top: 27px;
+}
+.banner .form-hana .box-form .ct_form_hana .box2 img{
+    margin-top: -6px;
+}
+.banner .box-banner .title h1 {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 55px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #f28f01;
+    text-shadow: rgb(255, 255, 255) 3px 0px 0px,
+    rgb(255, 255, 255) 2.83487px 0.981584px 0px,
+    rgb(255, 255, 255) 2.35766px 1.85511px 0px,
+    rgb(255, 255, 255) 1.62091px 2.52441px 0px,
+    rgb(255, 255, 255) 0.705713px 2.91581px 0px,
+    rgb(255, 255, 255) -0.287171px 2.98622px 0px,
+    rgb(255, 255, 255) -1.24844px 2.72789px 0px,
+    rgb(255, 255, 255) -2.07227px 2.16926px 0px,
+    rgb(255, 255, 255) -2.66798px 1.37182px 0px,
+    rgb(255, 255, 255) -2.96998px 0.42336px 0px,
+    rgb(255, 255, 255) -2.94502px -0.571704px 0px,
+    rgb(255, 255, 255) -2.59586px -1.50383px 0px,
+    rgb(255, 255, 255) -1.96093px -2.27041px 0px,
+    rgb(255, 255, 255) -1.11013px -2.78704px 0px,
+    rgb(255, 255, 255) -0.137119px -2.99686px 0px,
+    rgb(255, 255, 255) 0.850987px -2.87677px 0px,
+    rgb(255, 255, 255) 1.74541px -2.43999px 0px,
+    rgb(255, 255, 255) 2.44769px -1.73459px 0px,
+    rgb(255, 255, 255) 2.88051px -0.838247px 0px;
+}
+.banner .form-hana .right .form{
+    padding-left: 30px;
+    padding-top: 34px;
+    padding-right: 30px;
+}
+.banner .form-hana .right .form .fa-map-marker{
+    font-size:28px !important;
+    color:#E5C300 !important;
+    margin-top: -7px;
+}
+.banner .form-hana .right .form .name_search{
+    font-size: 14px;
+    font-family: "Roboto";
+    font-weight: bold;
+    line-height: 16px;
+    color: #E5C300;
+    margin-bottom: 8px !important;
+}
+.banner .form-hana .right .form select.province{
+    width: 125px !important;
+}
+.banner .form-hana .right .form select.distinct{
+    width: 145px !important;
+}
+.banner .form-hana .right .form select.town{
+    width: 130px !important;
+    margin-left: 20px;
+}
+.banner .form-hana .right .form select.date_to{
+    width: 140px !important;
+}
+.banner .form-hana .right .form select{
+  background: rgba(0, 0, 0, 0) !important;
+    color: white !important;
+    border-radius: unset !important;
+    border: unset !important;
+}
+.banner .form-hana .right .form select:focus{
+  box-shadow: unset !important;
+}
+.banner .form-hana .right .form form .form-row{
+    border-bottom: 1px solid white;
+    margin-bottom: 25px;
+}
+.banner .form-hana .right .form form .form-group{
+    margin-bottom: 0.5rem !important;
+}
+.banner .form-hana .right .form form .form-group .form-control{
+    padding: 0 ;
+}
+.banner .form-hana .button_form .search_hana {
     width: 100%;
+    background: #FFFFFF !important;
+    border-color: #fff;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 22px;
+    color: #E5C300;
+    padding: 14px;
+}
+.banner .form-hana .date_form {
+    border: unset;
+    background: unset;
+    color: white;
+    width: 125px ;
+}
+.banner .form-hana .date_form:focus {
+    outline: none;
+}
+.banner .form-hana .fa-angle-down  {
+    margin-top: 5px;
+    font-weight: 600;
+}
+.banner .form-hana .right .form select.hour_to{
+    width: 100px !important;
+    padding-left: 20px !important;
+}
+
+
+
+/*=======================================*/
+.feature{
+    padding-top: 80px;
+    font-family: "Roboto";
+    width: 79%;
+}
+.feature h5{
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    color: #777572;
+}
+.feature .list-feature{
+    padding-top: 34px;
+}
+.feature .list-feature .img_feature{
+    padding: 0 7px;
+}
+
+/*//==========*/
+.instruct{
+    width: 92%;
+    border: 3px dashed #E5C300;
+}
+.box-steps{
+    margin-top: 150px;
+}
+.instruct .box-content{
+
+}
+.instruct .title_instruct{
+    background: #fff;
+    width: 430px;
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.instruct .title_instruct h3{
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 32px;
+    color: #000000;
+}
+.instruct .list-steps{
+   width: 90%;
+    margin: auto;
+    padding: 51px 0;
+}
+.instruct .list-steps .step{
+    padding: 0 30px;
+}
+.instruct .list-steps .step h5{
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #777572;
+    padding-top: 27px;
+}
+.instruct .box-content .more-step{
+    position: absolute;
+    bottom: 0;
+    right: 7%;
+    transform: translate(0,50%);
+}
+.instruct .box-content .more-step a{
+    background: #E5C300 !important;
+    border-radius: 5px;
+    font-family: "Roboto";
+}
+.position{
+    width: 66%;
+    padding-top: 100px;
+}
+.position .img_position:last-child{
+    padding-left: 20px;
+    padding-right: 0px;
+}
+.position .img_position{
+    max-width: 510px;
+}
+.position .img_position:first-child{
+    padding-right: 20px;
+    padding-left: 0px;
+}
+.position h4{
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    color: #777572;
+    padding-bottom: 20px;
+}
+.position .list-position .text{
+    bottom: 5%;
+    left: 5%;
+    font-family: "Roboto";
+}
+.position .list-position .text:last-child{
+    left: 10%;
+}
+.position .list-position .text h5{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 35px;
+}
+.position .list-position .text p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.banner_regis{
+    padding-top: 70px;
+    font-family: "Roboto";
+}
+.banner_regis .text_regis{
+    width: 30%;
+    top: 55%;
+    right: 0;
+    transform: translate(-20%,-50%);
+}
+.banner_regis .text_regis .act_regis_home .btn_info_home{
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 600;
+    color: #000000;
+    background: #FFFFFF !important;
+    border-radius: 5px;
+}
+.banner_regis .text_regis .act_regis_home .btn_regis_home{
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 600;
+    color: #fff;
+    background: #E5C300 !important;
+    border-radius: 5px;
+    padding: .365rem 20px;
+}
+.banner_regis .text_regis h2{
+    font-weight: 900;
+    font-size:39px;
+    line-height:46px ;
+    margin-bottom: 20px;
+}
+.banner_regis .text_regis p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    margin-bottom: 35px;
+}
+
+.car_section {
+    padding-top: 80px;
+    font-family: "Roboto";
+    width: 79%;
+}
+.car_section h5{
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    color: #777572;
+}
+.list-car{
+    padding-top:15px
+}
+.list-car .img_car {
+    padding: 0 7px;
+}
+.star {
+    background: linear-gradient(to right,#fc3 70%,#ccc 70%);
+    color: transparent;
+    font-size: 25px;
+    padding-right: 20px;
+    -webkit-background-clip: text;
+}
+.list-car .info_car h5 {
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 17px;
+    color: #000000;
+    padding-top: 13px;
+}
+.list-car .info_car span.num_trip {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #777572;
+    margin-top: 7px;
+}
+
+.list-car .info_car .btn_more_car {
+    background: #E8EAEF;
+    color: #777572;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    margin-bottom: 9px;
+}
+
+.list-car .info_car .rating {
+    margin-top: -10px;
+}
+
+.list-car .info_car .mapping i {
+    color: #DADADA;
+}
+
+.list-car .info_car .mapping span {
+    font-size: 12px;
+    line-height: 19px;
+    color: #777572;
+}
+
+
+.testimonial{
+    font-family: "Roboto";
+    background-image: url("/img/web/home/bg_testimonial.png");
+    background-size:cover;
+    height: 100%;
+}
+.testimonial .title_feedback{
+    width: 79%;
+    padding: 35px 0  15px 0;
+    margin: 0 auto 85px auto;
+}
+.testimonial .title_feedback h4{
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 32px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.testimonial .title_feedback p{
+    font-size: 15px;
+    line-height: 17px;
+    color: #57575A;
+
+}
+.testimonial .content{
+    width: 79%;padding-bottom: 50px;
+}
+.testimonial .box .img{
+    width: 120px;
+}
+.testimonial .box .img img{
     border-radius: 50%;
 }
-
-.title-driver{
-    margin-top: 100px;
+.testimonial .box .feedback{
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+.testimonial .box .feedback .img{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.testimonial .box .feedback .text_feedback{
+    padding: 79px 20px 10px 20px;
+}
+.testimonial .box .feedback .text_feedback p{
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #57575A;
 }
 
-.form-login{
+.blogs{
     width: 80%;
-    margin: 20px auto;
+    font-family: "Roboto";
+    margin: 80px auto 50px auto;
 }
-.form-login input.phone,.form-login input.password,
-.form-login input.date,
-.form-login input.marker{
-    border-radius: 0 !important;
-    height: 45px;
-}
-.form-login input.date{
-    border-radius: 0 !important;
-    height: 45px;
-    border: 1px solid lightgrey;
-}
-.form-login select.hours{
-    border-radius: 0 !important;
-    height: 45px;
-    border: 1px solid lightgrey;
-}
-.form-login select.hours option{
-    border-radius: 0 !important;
-    height: 45px;
-    border: 1px solid lightgrey;
-} 
-.form-login select.hours .option{
-    width: 30px;
-}
-.form-login .box-icon{
-    width: 40px;
-    padding: 12px 13px;
-    height: 45px;
-    background-color: lightgray;
-}
-.form-login button{
-    background-color: #282E2F;
-    border-color: #282E2F;
-    width: 100%;
-    height: 45px;
-}
-.content_trips .list_trip{
-    width: 95%;
-    margin: 30px auto;
-}
-.content_trips .list_trip .trip-item{
-   background-color: #fff;
-   border-radius: 5px;
-   border-bottom: 1px dashed;
-}
-.content_trips .btn_accept{
-    background-color: #DDDF3C;
-    color: black;
-    font-weight: 600;
-    height: 45px;
-}
-.content_trips .btn_accepted_success{
-    background-color: green;
-    color: white;
-}
-.content_trips .btn_accept:hover{
-    background-color: #000;
-    color: white;
-}
-.content_trips .bottom .customer_infor i{
-    width: 25px;
-}
-.content_trips .customer_infor .obj_infor{
-    padding-bottom: 10px;
-}
-.content_trips .trip-item .btn-price{
-    color: tomato;
-    border-color: tomato;
-}
-.content_trips .trip-item .btn-trip-full{
-    color: green;
-    border-color: green;
-}
-.content_trips .trip-item .time{
-    font-weight: 18px;
-}
-/* .content_trips .bottom .customer_infor .phone i{
-    width: 20px !important;
-} */
-.content_trips .sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
+.blogs .title_blog{
+    padding-bottom: 30px;
 }
 
-.content_trips .sticky + .content {
-  padding-top: 102px;
-}
-.trips_history{
-
-}
-.trips_history .list_trip .trip-item{
-    border-bottom: 1px dashed;
-}
-.trips_history .list_trip .trip-item .trip-success{
-    color: green !important;
+.blogs .title_blog h3{
     font-weight: 700;
+    font-size: 27px;
+    line-height: 32px;
+    color: #000000;
+}
+.blogs .content_blog .des{
+    bottom: 0;
+    left: 0;
+    background: black;
+    width: 100%;
+    opacity: 0.6;
+    min-height: 100px;
 }
 
-.trips_history .list_trip .customer_infor i{
-    width: 25px;
+.blogs .content_blog .des1 {
+    left: 2.5%;
+    width: 95%;
+}
+.blogs .content_blog .des3 {
+    width: 99%;
 }
 
-.trips_history .list_trip .btn-price-history{
-    /* background-color: green; */
-    color: green;
+element.style {
+}
+.blogs .content_blog .des4 {
+    left: 2%;
+    width: 98%;
+}
+.blogs .content_blog .des h5{
     font-weight: 600;
-
+    font-size: 19px;
+    line-height: 22px;
 }
-.content-about h5{
+.blogs .text_blog{
+    bottom: 0;
+    left: 5%;
+    width: 90%;
+}
+.blogs .text_blog h5{
+    font-size: 19px;
+    line-height: 22px;
     font-weight: 500;
 }
-.bg-grey{
-    background: lightgrey;
+.blogs .sub-blog1 h5{
+    font-size: 17px !important;
 }
-.w-90{
-    width: 90%;
+.blogs .sub-blog2 h5,.blogs .sub-blog3 h5{
+    font-size: 16px !important;
 }
-.content-about .block-info .title{
-   
-    height: 45px;
-}
-.content-about .block-info .title h5{
-    padding-top: 12px;
+.blogs .content_blog img{
+    border-radius: 5px 5px 0 0;
 }
 
-.sub_menu_mobi ul li a{
-    color:white;
-}
 
-footer{
+.partner_regis{
+    font-family: "Roboto";
+    background-image: url("/img/web/home/partner_regis.png");
+    background-size:cover;
+    height: 100%;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+}
+.partner_regis .form form{
+    width: 82%;
+}
+.partner_regis .form{
     width: 100%;
+    background-color: #fff;
     margin: auto;
-    background-color: lightgrey;
-    bottom: 0;
+    border-radius: 15px;
 }
-footer a{
-    color: #282E2F;
+.partner_regis .form .title{
+    padding-top: 37px;
 }
-footer .content_ft{
-    width: 90%;
-    margin: auto;
-    padding: 7px;
+.partner_regis .form .title h4{
+    font-weight: 700;
+    font-size: 25px;
+    color: #E5C300;
 }
-footer ul{
-    display: flex;
-    justify-content: space-between;
+.partner_regis .form label{
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+.partner_regis .form input{
+   border-top: unset;
+   border-right: unset;
+   border-left: unset;
+    border-bottom: 1px solid #B9B9B9;
+}
+.partner_regis .form .btn_partner_regis{
+    background: #FBB200;
+    border-radius: 8px;
+    border-color: #FBB200;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 23px;
+    padding: 13px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.partner_regis .content{
+    padding: 40px 9% 40px 62%;
+}
+.partner_regis .form-control:focus{
+    box-shadow: unset;
+}
+
+footer .footer{
+    background-color:#141414 ;
+    font-family: "Roboto";
+    color: white;
+}
+footer .footer .ft_hana{
+    width: 80%;
+    padding: 60px 0 90px 0;
+}
+.footer .logo_ft{
+    width: 200px;
+    padding-bottom: 35px;
+}
+.footer .contact_ft span{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 23px;
+}
+.footer .contact_ft i{
+    font-size: 20px;
+    padding-right: 10px;
+}
+.footer .contact_ft .item_contact_ft{
+    padding-bottom: 15px;
+}
+.footer .linking ul{
     list-style: none;
 }
-footer i{
-    font-size: 30px !important;
+.footer .linking ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 23px;
 }
-footer li i.active{
-    color: brown;
+.footer .ft_hana .title{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
 }
+.footer ul li a{
+
+}
+.footer ul li:hover{
+    transform: scale(1.05);
+}
+.footer ul li{
+    padding-bottom: 15px;
+    transition: all .2s ease-in-out;
+}
+

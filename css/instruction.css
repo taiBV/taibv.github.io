@@ -1,0 +1,101 @@
+.content_instruction{
+    width: 70%;
+    margin: auto;
+    font-family: "Roboto";
+}
+.content_instruction .left{
+    width: 70%;
+
+}
+.content_instruction .box{
+    width: 122px;
+    height: 122px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.content_instruction .box1{
+    background: #DCE2B7;
+}
+.content_instruction .box2{
+    background: #BDDAFA !important;
+}
+.content_instruction .box3{
+    background: #F5D5ED;
+}
+.content_instruction .box4{
+    background: #F4BBAC !important;
+}
+.content_instruction .box5{
+    background: #FCE898;
+}
+.content_instruction .box6{
+    background: #C3E5D4 !important;
+}
+.content_instruction .number_steps h5{
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 87px;
+}
+.content_instruction .content_steps h6{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+}
+.content_instruction .content_steps p{
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 0;
+}
+.content_instruction .step1{
+    background: #DCE2B7;
+}
+.content_instruction .step2{
+    background: #BDDAFA;;
+}
+.content_instruction .step3{
+    background: #F5D5ED;
+}
+.content_instruction .step4{
+    background: #F4BBAC;
+}
+.content_instruction .step5{
+    background: #FCE898;;
+}
+.content_instruction .step6{
+    background: #C3E5D4;
+}
+.content_instruction .content_steps .in_st{
+    padding: 30px 50px 30px 100px;
+}
+.content_instruction .box_left{
+    position: absolute;
+    top: 8%;
+    left: -7%;
+}
+.content_instruction .box_right{
+    position: absolute;
+    top: 8%;
+    right: -7%;
+    background: #DCE2B7;
+}
+.content_instruction .b1{
+    color: #848E26;
+}
+.content_instruction .b2{
+    color: #394B61;
+}
+.content_instruction .b3{
+    color: #3A286F;
+}
+.content_instruction .b4{
+    color: #D42C02;
+}
+.content_instruction .b5{
+    color: #FF7300;
+}
+.content_instruction .b6{
+    color: #056547;
+}

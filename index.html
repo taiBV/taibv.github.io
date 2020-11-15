@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="plugins/jquery-ui-1.12.1/jquery-ui.css">
     <link rel="shortcut icon" type="image/png" href="img/web/home/logo.png"/>
 </head>
+
 <body>
 <!-- MAIN -->
 <header>
@@ -24,25 +25,61 @@
                             <img class="w-100" title="Dịch vụ đặt xe trực tuyến" src="img/web/home/logo.png" alt="Dịch vụ đặt xe trực tuyến Hana">
                         </div>
                     </div>
-                
-            
+                    <div class="contact-header d-lg-flex d-none">
+                        <div class="phone">
+                            <a href="#"  class="text-white">
+                                <img src="img/web/home/icon-phone.png" title="Dịch vụ đặt xe trực tuyến" alt="Dịch vụ đặt xe trực tuyến">
+                                <span>1900 9217</span>
+                            </a>
+                        </div>
+                        <div class="email">
+                            <a href="#"  class="text-white">
+                                <img class="mr-2" src="img/web/home/icon-email.png" alt="email-hana">
+                                <span>taibv63@gmail.com</span>
+                            </a>
+                        </div>
+                        <div class="facebook">
+                            <a href="#" class="text-white">
+                                <img class="mr-2" src="img/web/home/fb-icon.png" title="Dịch vụ đặt xe trực tuyến" alt="Dịch vụ đặt xe trực tuyến">
+                                <span>Facebook</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="sign-in d-lg-flex d-none">
+                        <div class="introduct">
+                            <a href="#" class="text-white">
+                                <img class="mr-2" src="img/web/home/icon-info.png" title="Dịch vụ đặt xe trực tuyến" alt="Dịch vụ đặt xe trực tuyến">
+                                <span>Hướng dẫn</span>
+                            </a>
+                        </div>
+                        <div class="login">
+                            <a href="#" class="text-white">
+                               Đăng nhập
+                            </a>
+                        </div>
+                        <div class="register">
+                            <a href="#" class="text-white">
+                               Đăng ký
+                            </a>
+                        </div>
+                    </div>
+
                     <!--   MENU MOBILE -->
                     <div class="menu-mobile d-flex d-lg-none">
+                        <a href="#" class="text-white pr-4">
+                            <img class="mr-2" src="img/web/home/icon-info.png" title="Dịch vụ đặt xe trực tuyến" alt="Dịch vụ đặt xe trực tuyến">
+                        </a>
                         <div>
-                            <div class="hambuger">
-                                <img class="mr-2" src="img/web/home/ykkh1.png" alt="Dịch vụ đặt xe trực tuyến">
-                            </a>
+                            <i class="fas fa-bars hambuger"></i>
                         </div>
                         <div class="sub_menu_mobi">
                             <p class="float-right p-3"><i class="fas fa-times icon-close"></i></p>
                             <div class="menu">
-                                <ul class="pt-4 text-white">
+                                <ul class="pt-4">
                                     <li class="text-uppercase">Bùi Văn Tài</li>
-                                    <li><a href="#">Tài khoản</a> </li>
-                                    <li><a href="list.html">Chuyến đi của tôi</a> </li>
-                                    <li><a href="community.html">Kênh cộng đồng</a> </li>
-                                    <li><a href="history.html"> Lịch sử chuyến đi</a> </li>
-                                    <li><a href="setting.html">Cập nhật thông tin</a></li>
+                                    <li>Thông tin tài khoản</li>
+                                    <li>Chuyến đi của tôi</li>
+                                    <li>Đăng nhập</li>
                                     <li>Đăng xuất</li>
                                 </ul>
                             </div>
@@ -55,111 +92,830 @@
     </section>
 </header>
 <main>
-
-   <div class="container-fluid px-0">
-       <div class="content_trips">
-           <div class="list_trip d-flex flex-column">
-               <div class="trip-item col-sm-12 mb-4">
-                    <div class="top d-flex justify-content-between">
-                        <div class="time">
-                             <b> 10/11/2020  16:00</b>
-                        </div>
-                        <div class="cancel text-danger">
-                            <button class="btn btn-price">200.000 VNĐ</button>
-                        </div>
+    <section>
+        <div class="container-fluid px-0">
+            <div class="banner m-auto">
+                <div class="box-banner">
+                    <div class="title">
+                        <h1>HANA BOOKINGCAR</h1>
                     </div>
-                    <div class="bottom row m-0">
-                        <div class="customer_infor w-100">
-                            <div class="phone obj_infor">
-                                <i class="fas fa-mobile-alt"></i><b>032691****</b>
-                            </div>
-                            <div class="d-flex justify-content-between">
-                                <div class="name obj_infor">
-                                    <i class="fas fa-user"></i>BÙI VĂN TÀI
+                    <div class="form-hana">
+                        <div class="box-form">
+                            <div class="d-flex ct_form_hana row flex-lg-row flex-column">
+                                <div class="type-form left row mx-0">
+                                    <div class="col-lg-12 col-6 car car1 active px-0 text-center">
+                                        <div class="boxcar box1">
+                                            <div class="text-center w-100">
+                                                <img class="w-100 lazyload"  data-src="img/web/home/car_banner2.png" title="Dịch vụ đặt xe trực tuyến" alt="Dịch vụ đặt xe trực tuyến">
+                                            </div>
+                                        </div>
+                                        <h5 class="text-white mb-0">Thuê theo chỗ</h5>
+                                    </div>
+                                    <div class="col-lg-12 col-6 car car2 px-0 text-center">
+                                        <div class="boxcar box2">
+                                            <div class="text-center w-100">
+                                                <img class="w-100 lazyload"  data-src="img/web/home/car_banner.png" title="Dịch vụ đặt xe trực tuyến" alt="Dịch vụ đặt xe trực tuyến">
+                                            </div>
+                                        </div>
+                                        <h5 class="text-white mb-0">Bao xe</h5>
+                                    </div>
                                 </div>
-                                <a href="" class="text-danger">TỪ CHỐI</a>
-                            </div>
-                            <div class="point obj_infor">
-                                <i class="fas fa-running"></i>NGÔ ĐỒNG
-                            </div>
-                            <div class="maker obj_infor">
-                                <i class="fas fa-map-marker-alt"></i>Đại học công nghiệp HÀ NỘI
-                            </div>
-                        </div>
-                    </div>
-                    <div class="w-100 pb-4 mt-2">
-                        <button class="btn w-100 btn_accept">NHẬN CHUYẾN</button>
-                    </div>
-               </div>
+                                <div class="type-form right">
+                                    <div class="form">
+                                        <form>
+                                            <p class="name_search">Điểm đi</p>
+                                            <div class="form-row align-items-center">
+                                                <i class="fa fa-map-marker"></i>
+                                                <div class="form-group col-3">
+                                                    <select class="form-control province">
+                                                        <option selected>Thành phố</option>
+                                                        <option>...</option>
 
-               <!--  -->
-               <div class="trip-item col-sm-12 mb-4">
-                    <div class="top d-flex justify-content-between">
-                        <div class="time">
-                            <b> 10/11/2020  16:00</b>
-                        </div>
-                        <div class="cancel text-danger">
-                            <button class="btn btn-price">200.000 VNĐ</button>
-                        </div>
-                    </div>
-                    <div class="bottom row m-0">
-                        <div class="customer_infor w-100">
-                            <div class="phone obj_infor">
-                                <i class="fas fa-mobile-alt"></i><b>0326913212</b>
-                            </div>
-                            <div class="d-flex justify-content-between">
-                                <div class="name obj_infor">
-                                    <i class="fas fa-user"></i>BÙI VĂN TÀI
+                                                    </select>
+                                                </div>
+                                                <div class="form-group col-3">
+                                                    <select class="form-control distinct">
+                                                        <option selected>Quận , Huyện</option>
+                                                        <option>...</option>
+                                                    </select>
+                                                </div>
+                                                <div class="form-group col-3">
+                                                    <select class="form-control town">
+                                                        <option selected>Phường , Xã</option>
+                                                        <option>...</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <p class="name_search">Điểm đến</p>
+                                            <div class="form-row align-items-center">
+                                                <i class="fa fa-map-marker"></i>
+                                                <div class="form-group col-3">
+                                                    <select class="form-control province">
+                                                        <option selected>Thành phố</option>
+                                                        <option>...</option>
+
+                                                    </select>
+                                                </div>
+                                                <div class="form-group col-3">
+                                                    <select class="form-control distinct">
+                                                        <option selected>Quận , Huyện</option>
+                                                        <option>...</option>
+                                                    </select>
+                                                </div>
+                                                <div class="form-group col-3">
+                                                    <select class="form-control town">
+                                                        <option selected>Phường , Xã</option>
+                                                        <option>...</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <p class="name_search">Thời gian đi</p>
+                                            <div class="form-row align-items-center mx-0">
+                                                <div class="form-group col-3 d-flex">
+                                                    <input class="date_form" type="text" id="datepicker">
+                                                    <i class="fa fa-angle-down text-white" aria-hidden="true"></i>
+                                                </div>
+                                                <div class="form-group col-3">
+                                                    <select class="form-control hour_to">
+                                                        <option selected>20 : 00</option>
+                                                        <option>...</option>
+                                                    </select>
+                                                </div>
+                                                <i class="fa fa-angle-down text-white d-sm-none d-block icon_hour_mobi" aria-hidden="true"></i>
+                                            </div>
+                                            <div class="button_form">
+                                                <button type="submit" class="btn btn-primary search_hana w-100">
+                                                    <span><i class="fas fa-search pr-3"></i></span>
+                                                    TÌM XE NGAY</button>
+                                            </div>
+                                        </form>
+                                    </div>
                                 </div>
-                                <a href="" class="text-danger">HỦY</a>
-                            </div>
-                            <div class="point obj_infor">
-                                <i class="fas fa-running"></i>NGÔ ĐỒNG
-                            </div>
-                            <div class="maker obj_infor">
-                                <i class="fas fa-map-marker-alt"></i>Đại học công nghiệp HÀ NỘI
-                            </div>
-                            <div class="notes obj_infor">
-                                <i class="fa fa-file"></i> Ghi chú của khách hàng đặt xe ...
                             </div>
                         </div>
-                    </div>
-                    <div class="w-100 pb-4 mt-2">
-                        <button class="btn w-100 btn_accept btn_accepted_success text-uppercase">ĐANG THỰC HIỆN</button>
                     </div>
                 </div>
-           <!--  -->
+            </div>
+        </div>
+    </section>
+    <div class="clearfix"></div>
+    <section>
+        <div class="container-fluid px-0">
+            <div class="feature m-auto">
+                <div class="m-auto">
+                    <h5>TÍNH NĂNG NỔI BẬT</h5>
+                </div>
+                <div class="list-feature m-auto row">
+                    <div class="img_feature col-lg-3 col-sm-6 mb-3 mb-lg-0">
+                        <img class="w-100 lazyload"  data-src="img/web/home/feature4.png" alt="tính năng nổi bật dịch vụ xe hana" title="tính năng nổi bật dịch vụ xe hana">
+                    </div>
+                    <div class="img_feature col-lg-3 col-sm-6 mb-3 mb-lg-0">
+                        <img class="w-100 lazyload"  data-src="img/web/home/feature3.png" alt="tính năng nổi bật dịch vụ xe hana" title="tính năng nổi bật dịch vụ xe hana">
+                    </div>
+                    <div class="img_feature col-lg-3 col-sm-6 mb-3 mb-lg-0">
+                        <img class="w-100 lazyload"  data-src="img/web/home/feature2.png" alt="tính năng nổi bật dịch vụ xe hana" title="tính năng nổi bật dịch vụ xe hana">
+                    </div>
+                    <div class="img_feature col-lg-3 col-sm-6 mb-3 mb-lg-0">
+                        <img class="w-100 lazyload" data-src="img/web/home/feature1.png" alt="tính năng nổi bật dịch vụ xe hana" title="tính năng nổi bật dịch vụ xe hana">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="clearfix"></div>
+    <section>
+            <div class="container-fluid px-0 box-steps">
+                <div class="instruct m-auto">
+                    <div class="box-content">
+                        <div class="position-relative">
+                            <div class="title_instruct text-center">
+                                <h3>Quy trình thực hiện chuyến đi </h3>
+                            </div>
+                            <div class="list-steps">
+                                <div class="row mx-0">
+                                    <div class="col-lg-3 col-sm-6 step mb-lg-0 mb-4">
+                                        <div class="img_step">
+                                            <img class="w-100 lazyload"  data-src="img/web/home/step1.png" title="Hướng dẫn đặt chuyến đi hana" alt="Hướng dẫn đặt chuyến đi hana">
+                                        </div>
+                                        <h5 class="text-center mb-0">Đặt xe trên HANA</h5>
+                                    </div>
+                                    <div class="col-lg-3 col-sm-6 step mb-lg-0 mb-4">
+                                        <div class="img_step">
+                                            <img class="w-100 lazyload"  data-src="img/web/home/step2.png" title="Hướng dẫn đặt chuyến đi hana" alt="Hướng dẫn đặt chuyến đi hana">
+                                        </div>
+                                        <h5 class="text-center mb-0">Xác nhận chuyến đi </h5>
+                                    </div>
+                                    <div class="col-lg-3 col-sm-6 step mb-lg-0 mb-4">
+                                        <div class="img_step">
+                                            <img class="w-100 lazyload"  data-src="img/web/home/step3.png" title="Hướng dẫn đặt chuyến đi hana" alt="Hướng dẫn đặt chuyến đi hana">
+                                        </div>
+                                        <h5 class="text-center mb-0">Trải nghiệm chuyến đi</h5>
+                                    </div>
+                                    <div class="col-lg-3 col-sm-6 step mb-lg-0 mb-4">
+                                        <div class="img_step">
+                                            <img class="w-100 lazyload"  data-src="img/web/home/step4.png" title="Hướng dẫn đặt chuyến đi hana" alt="Hướng dẫn đặt chuyến đi hana">
+                                        </div>
+                                        <h5 class="text-center mb-0">Đánh giá , kết thúc</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="more-step">
+                                <a class="btn text-white" href="">XEM THÊM <i class="pl-3 fas fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <div class="clearfix"></div>
+    <section>
+        <div class="container-fluid px-0">
+            <div class="position m-auto">
+                <div class="m-auto">
+                    <h4>ĐỊA ĐIỂM NỔI BẬT</h4>
+                </div>
+                <div class="list-position m-auto row d-md-flex d-none">
+                    <div class="img_position col-sm-6 mb-3 mb-lg-0 position-relative">
+                        <img class="w-100 lazyload"  data-src="img/web/home/hanoi.jpg" alt="Xe tiện chuyến hà nội nam định" title="Xe tiện chuyến hà nội nam định">
+                        <div class="text position-absolute text-white">
+                            <h5>Hà Nội</h5>
+                            <p class="mb-0">300+ xe</p>
+                            <p class="mb-0">30+ chuyến/ngày</p>
+                        </div>
+                    </div>
+                    <div class="img_position col-sm-6 mb-3 mb-lg-0 position-relative">
+                        <img class="w-100 lazyload"  data-src="img/web/home/namdinh.jpg" alt="Xe tiện chuyến hà nội nam định" title="Xe tiện chuyến hà nội nam định">
+                        <div class="text position-absolute text-white">
+                            <h5>Nam Định</h5>
+                            <p class="mb-0">300+ xe</p>
+                            <p class="mb-0">30+ chuyến/ngày</p>
+                        </div>
+                    </div>
+                </div>
 
-            
-        <!--  -->
-           </div>
-       </div>
-   </div>
+                <div class="list-position m-auto row d-md-none d-block">
+                    <div id="carouselExampleIndicators" class="carousel slide w-100" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="img_position mb-3 mb-lg-0 position-relative">
+                                    <img class="w-100 lazyload"  data-src="img/web/home/hanoi.jpg" alt="Xe tiện chuyến hà nội nam định" title="Xe tiện chuyến hà nội nam định">
+                                    <div class="text position-absolute text-white">
+                                        <h5>Hà Nội</h5>
+                                        <p class="mb-0">300+ xe</p>
+                                        <p class="mb-0">30+ chuyến/ngày</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="img_position mb-3 mb-lg-0 position-relative">
+                                    <img class="w-100 lazyload"  data-src="img/web/home/namdinh.jpg" alt="Xe tiện chuyến hà nội nam định" title="Xe tiện chuyến hà nội nam định">
+                                    <div class="text position-absolute text-white">
+                                        <h5>Nam Định</h5>
+                                        <p class="mb-0">300+ xe</p>
+                                        <p class="mb-0">30+ chuyến/ngày</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="clearfix"></div>
+    <section>
+        <div class="container-fluid px-0">
+            <div class="banner_regis position-relative">
+                <img class="w-100 lazyload"  data-src="img/web/home/banner_regis.png" alt="Đăng kí dịch vụ chạy xe tiện chuyến" title="Đăng kí dịch vụ thuê xe tiện chuyến">
+                <div class="text_regis position-absolute">
+                     <div class="">
+                         <h2 class="text-white">Đăng kí dịch vụ chạy xe theo chuyến</h2>
+                         <p class="text-white">Trở thành đối tác của chúng tôi để có cơ hội kiếm thêm thu nhập hàng tháng.</p>
+                         <div class="act_regis_home d-flex ">
+                             <a href="" class="btn btn_info_home mr-2">Tìm hiểu ngay</a>
+                             <a href="" class="btn btn_regis_home">Đăng ký xe</a>
+                         </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="clearfix"></div>
+<!-- ====================== DESKTOP XE NỎI BẬT ==========================   -->
+    <section class="d-md-block d-none">
+        <div class="container-fluid px-0">
+            <div class="car_section m-auto">
+                <div class="m-auto">
+                    <h5>XE NỔI BẬT</h5>
+                </div>
+                <div class="list-car m-auto row">
+                    <div class="img_car col-lg-3 col-sm-6 mb-3 mb-lg-0">
+                        <img class="w-100 lazyload"  data-src="img/web/home/car.png" alt="Xe tiện chuyến" title="Xe tiện chuyến">
+                        <div class="info_car">
+                            <h5 class="text-uppercase">HONDA CRV-L 2019</h5>
+                            <div class="rating d-flex align-items-center">
+                                <span class="star" aria-hidden="true">★★★★★</span>
+                                <span class="num_trip">&bull; 50 chuyến</span>
+                            </div>
+                            <a href="" class="btn btn_more_car">Xem chi tiết</a>
+                            <div class="mapping">
+                                <i class="fa fa-user pr-2" aria-hidden="true"></i><span>Tài xế : BÙI VĂN TÀI</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img_car col-lg-3 col-sm-6 mb-3 mb-lg-0">
+                        <img class="w-100 lazyload"  data-src="img/web/home/car.png" alt="Xe tiện chuyến" title="Xe tiện chuyến">
+                        <div class="info_car">
+                            <h5 class="text-uppercase">HONDA CRV-L 2019</h5>
+                            <div class="rating d-flex align-items-center">
+                                <span class="star" aria-hidden="true">★★★★★</span>
+                                <span class="num_trip">&bull; 50 chuyến</span>
+                            </div>
+                            <a href="" class="btn btn_more_car">Xem chi tiết</a>
+                            <div class="mapping">
+                                <i class="fa fa-user pr-2" aria-hidden="true"></i><span>Tài xế : BÙI VĂN TÀI</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img_car col-lg-3 col-sm-6 mb-3 mb-lg-0">
+                        <img class="w-100 lazyload"  src="img/web/home/car.png" alt="Xe tiện chuyến" title="Xe tiện chuyến">
+                        <div class="info_car">
+                            <h5 class="text-uppercase">HONDA CRV-L 2019</h5>
+                            <div class="rating d-flex align-items-center">
+                                <span class="star" aria-hidden="true">★★★★★</span>
+                                <span class="num_trip">&bull; 50 chuyến</span>
+                            </div>
+                            <a href="" class="btn btn_more_car">Xem chi tiết</a>
+                            <div class="mapping">
+                                <i class="fa fa-user pr-2" aria-hidden="true"></i><span>Tài xế : BÙI VĂN TÀI</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img_car col-lg-3 col-sm-6 mb-3 mb-lg-0">
+                        <img class="w-100 lazyload"  data-src="img/web/home/car.png" alt="Xe tiện chuyến" title="Xe tiện chuyến">
+                        <div class="info_car">
+                            <h5 class="text-uppercase">HONDA CRV-L 2019</h5>
+                            <div class="rating d-flex align-items-center">
+                                <span class="star" aria-hidden="true">★★★★★</span>
+                                <span class="num_trip">&bull; 50 chuyến</span>
+                            </div>
+                            <a href="" class="btn btn_more_car">Xem chi tiết</a>
+                            <div class="mapping">
+                                <i class="fa fa-user pr-2" aria-hidden="true"></i><span>Tài xế : BÙI VĂN TÀI</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- ============================   MOBILE XE NỔI BẬT ====================-->
+    <section class="d-md-none d-block">
+        <div class="container-fluid px-0">
+            <div class="car_section m-auto">
+                <div class="m-auto w-95">
+                    <h5>XE NỔI BẬT</h5>
+                </div>
+                <div class="list-car m-auto row">
+                    <div id="carouselCar" class="carousel slide m-auto" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="img_car col-lg-3 col-md-6 mb-3 mb-lg-0 px-0">
+                                    <img class="w-100 lazyload"  data-src="img/web/home/car.png" alt="Xe tiện chuyến" title="Xe tiện chuyến">
+                                    <div class="info_car">
+                                        <h5 class="text-uppercase">HONDA CRV-L 2019</h5>
+                                        <div class="rating d-flex align-items-center">
+                                            <span class="star" aria-hidden="true">★★★★★</span>
+                                            <span class="num_trip">&bull; 50 chuyến</span>
+                                        </div>
+                                        <a href="" class="btn btn_more_car">Xem chi tiết</a>
+                                        <div class="mapping">
+                                            <i class="fa fa-user pr-2" aria-hidden="true"></i><span>Tài xế : BÙI VĂN TÀI</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="img_car col-lg-3 col-md-6 mb-3 mb-lg-0 px-0" >
+                                    <img class="w-100 lazyload"  data-src="img/web/home/car.png" alt="Xe tiện chuyến" title="Xe tiện chuyến">
+                                    <div class="info_car">
+                                        <h5 class="text-uppercase">HONDA CRV-L 2019</h5>
+                                        <div class="rating d-flex align-items-center">
+                                            <span class="star" aria-hidden="true">★★★★★</span>
+                                            <span class="num_trip">&bull; 50 chuyến</span>
+                                        </div>
+                                        <a href="" class="btn btn_more_car">Xem chi tiết</a>
+                                        <div class="mapping">
+                                            <i class="fa fa-user pr-2" aria-hidden="true"></i><span>Tài xế : BÙI VĂN TÀI</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselCar" role="button" data-slide="prev">
+                            <div class="div-icon-next">
+                                <i class="fa fa-angle-left font-weight-bold"></i>
+                            </div>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselCar" role="button" data-slide="next">
+                            <div  class="div-icon-next">
+                                <i class="fa fa-angle-right font-weight-bold"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<!-- ================================- DESKTOP XE YÊU THÍCH=======================================================================-->
+    <div class="clearfix"></div>
+    <section class="d-md-block d-none">
+        <div class="container-fluid px-0">
+            <div class="car_section m-auto">
+                <div class="m-auto">
+                    <h5>XE ĐƯỢC YÊU THÍCH</h5>
+                </div>
+                <div class="list-car m-auto row">
+                    <div class="img_car col-lg-3 col-sm-6 mb-3 mb-lg-0">
+                        <img class="w-100 lazyload"  data-src="img/web/home/car.png" alt="Xe tiện chuyến" title="Xe tiện chuyến">
+                        <div class="info_car">
+                            <h5 class="text-uppercase">HONDA CRV-L 2019</h5>
+                            <div class="rating d-flex align-items-center">
+                                <span class="star" aria-hidden="true">★★★★★</span>
+                                <span class="num_trip">&bull; 50 chuyến</span>
+                            </div>
+                            <a href="" class="btn btn_more_car">Xem chi tiết</a>
+                            <div class="mapping">
+                                <i class="fa fa-user pr-2" aria-hidden="true"></i><span>Tài xế : BÙI VĂN TÀI</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img_car col-lg-3 col-sm-6 mb-3 mb-lg-0">
+                        <img class="w-100 lazyload"  data-src="img/web/home/car.png" alt="Xe tiện chuyến" title="Xe tiện chuyến">
+                        <div class="info_car">
+                            <h5 class="text-uppercase">HONDA CRV-L 2019</h5>
+                            <div class="rating d-flex align-items-center">
+                                <span class="star" aria-hidden="true">★★★★★</span>
+                                <span class="num_trip">&bull; 50 chuyến</span>
+                            </div>
+                            <a href="" class="btn btn_more_car">Xem chi tiết</a>
+                            <div class="mapping">
+                                <i class="fa fa-user pr-2" aria-hidden="true"></i><span>Tài xế : BÙI VĂN TÀI</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img_car col-lg-3 col-sm-6 mb-3 mb-lg-0">
+                        <img class="w-100 lazyload"  data-src="img/web/home/car.png" alt="Xe tiện chuyến" title="Xe tiện chuyến">
+                        <div class="info_car">
+                            <h5 class="text-uppercase">HONDA CRV-L 2019</h5>
+                            <div class="rating d-flex align-items-center">
+                                <span class="star" aria-hidden="true">★★★★★</span>
+                                <span class="num_trip">&bull; 50 chuyến</span>
+                            </div>
+                            <a href="" class="btn btn_more_car">Xem chi tiết</a>
+                            <div class="mapping">
+                                <i class="fa fa-user pr-2" aria-hidden="true"></i><span>Tài xế : BÙI VĂN TÀI</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img_car col-lg-3 col-sm-6 mb-3 mb-lg-0">
+                        <img class="w-100 lazyload"  data-src="img/web/home/car.png" alt="Xe tiện chuyến" title="Xe tiện chuyến">
+                        <div class="info_car">
+                            <h5 class="text-uppercase">HONDA CRV-L 2019</h5>
+                            <div class="rating d-flex align-items-center">
+                                <span class="star" aria-hidden="true">★★★★★</span>
+                                <span class="num_trip">&bull; 50 chuyến</span>
+                            </div>
+                            <a href="" class="btn btn_more_car">Xem chi tiết</a>
+                            <div class="mapping">
+                                <i class="fa fa-user pr-2" aria-hidden="true"></i><span>Tài xế : BÙI VĂN TÀI</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="clearfix"></div>
+<!--  ===========================MOBILE XE YÊU THÍCH ====================   -->
+    <section class="d-md-none d-block">
+        <div class="container-fluid px-0">
+            <div class="car_section m-auto">
+                <div class="m-auto w-95">
+                    <h5>XE YÊU THÍCH</h5>
+                </div>
+                <div class="list-car m-auto row">
+                    <div id="carouselCarLove" class="carousel slide m-auto" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="img_car col-lg-3 col-md-6 mb-3 mb-lg-0 px-0">
+                                    <img class="w-100 lazyload"  data-src="img/web/home/car.png" alt="Xe tiện chuyến" title="Xe tiện chuyến">
+                                    <div class="info_car">
+                                        <h5 class="text-uppercase">HONDA CRV-L 2019</h5>
+                                        <div class="rating d-flex align-items-center">
+                                            <span class="star" aria-hidden="true">★★★★★</span>
+                                            <span class="num_trip">&bull; 50 chuyến</span>
+                                        </div>
+                                        <a href="" class="btn btn_more_car">Xem chi tiết</a>
+                                        <div class="mapping">
+                                            <i class="fa fa-user pr-2" aria-hidden="true"></i><span>Tài xế : BÙI VĂN TÀI</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="img_car col-lg-3 col-md-6 mb-3 mb-lg-0 px-0">
+                                    <img class="w-100 lazyload"  data-src="img/web/home/car.png" alt="Xe tiện chuyến" title="Xe tiện chuyến">
+                                    <div class="info_car">
+                                        <h5 class="text-uppercase">HONDA CRV-L 2019</h5>
+                                        <div class="rating d-flex align-items-center">
+                                            <span class="star" aria-hidden="true">★★★★★</span>
+                                            <span class="num_trip">&bull; 50 chuyến</span>
+                                        </div>
+                                        <a href="" class="btn btn_more_car">Xem chi tiết</a>
+                                        <div class="mapping">
+                                            <i class="fa fa-user pr-2" aria-hidden="true"></i><span>Tài xế : BÙI VĂN TÀI</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselCarLove" role="button" data-slide="prev">
+                            <div class="div-icon-next">
+                                <i class="fa fa-angle-left font-weight-bold"></i>
+                            </div>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselCarLove" role="button" data-slide="next">
+                            <div  class="div-icon-next">
+                                <i class="fa fa-angle-right font-weight-bold"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="clearfix"></div>
+    <section class="mt-100">
+        <div class="container-fluid px-0">
+            <div class="testimonial m-auto text-center">
+                <div class="m-auto">
+                    <div class="title_feedback text-center">
+                        <h4 class="text-white">Ý kiến của khách hàng</h4>
+                    </div>
+                    <div class="content row m-auto d-none d-md-flex">
+                        <div class="col-md-4 item_feedback">
+                            <div class="box">
+                                <div class="feedback bg-white position-relative">
+                                    <div class="img">
+                                        <img class="w-100 lazyload" data-src="img/web/home/ykkh1.png" title="phản hồi dịch vụ xe tiện chuyến hana" alt="phản hồi dịch vụ xe tiện chuyến hana">
+                                    </div>
+                                    <div class="text_feedback">
+                                        <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                            Lorem Ipsum has been the industry's standard dummy text </p>
+                                        <p class="name font-italic">- Nguyễn Văn A -</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 item_feedback">
+                            <div class="box">
+                                <div class="feedback bg-white position-relative">
+                                    <div class="img">
+                                        <img class="w-100 lazyload" data-src="img/web/home/ykkh1.png" title="phản hồi dịch vụ xe tiện chuyến hana" alt="phản hồi dịch vụ xe tiện chuyến hana">
+                                    </div>
+                                    <div class="text_feedback">
+                                        <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                            Lorem Ipsum has been the industry's standard dummy text </p>
+                                        <p class="name font-italic">- Nguyễn Văn A -</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 item_feedback">
+                            <div class="box">
+                                <div class="feedback bg-white position-relative">
+                                    <div class="img">
+                                        <img class="w-100 lazyload" data-src="img/web/home/ykkh1.png" title="phản hồi dịch vụ xe tiện chuyến hana" alt="phản hồi dịch vụ xe tiện chuyến hana">
+                                    </div>
+                                    <div class="text_feedback">
+                                        <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                            Lorem Ipsum has been the industry's standard dummy text </p>
+                                        <p class="name font-italic">- Bùi Văn Tài -</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+            <!--      MOBILE ý kiến khách hàng              -->
+                    <div id="carouselYKKH" class="carousel slide w-100 d-md-none d-block" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselYKKH" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselYKKH" data-slide-to="1"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active ">
+                                <div class="col-md-4 item_feedback">
+                                    <div class="box">
+                                        <div class="feedback bg-white position-relative">
+                                            <div class="img">
+                                                <img class="w-100 lazyload" data-src="img/web/home/ykkh1.png" title="phản hồi dịch vụ xe tiện chuyến hana" alt="phản hồi dịch vụ xe tiện chuyến hana">
+                                            </div>
+                                            <div class="text_feedback">
+                                                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                                    Lorem Ipsum has been the industry's standard dummy text </p>
+                                                <p class="name font-italic">- Bùi Văn Tài -</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-md-4 item_feedback">
+                                    <div class="box">
+                                        <div class="feedback bg-white position-relative">
+                                            <div class="img">
+                                                <img  class="w-100 lazyload" data-src="img/web/home/ykkh1.png" title="phản hồi dịch vụ xe tiện chuyến hana" alt="phản hồi dịch vụ xe tiện chuyến hana">
+                                            </div>
+                                            <div class="text_feedback">
+                                                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                                    Lorem Ipsum has been the industry's standard dummy text </p>
+                                                <p class="name font-italic">- Bùi Văn Tài -</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselYKKH" role="button" data-slide="prev">
+                            <div class="div-icon-next">
+                                <i class="fa fa-angle-left font-weight-bold"></i>
+                            </div>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselYKKH" role="button" data-slide="next">
+                            <div  class="div-icon-next">
+                                <i class="fa fa-angle-right font-weight-bold"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="clearfix"></div>
+    <section>
+        <div class="container-fluid px-0">
+            <div class="blogs">
+                <div class="content_blog">
+                    <div class="title_blog m-auto text-center">
+                        <h3>Blogs</h3>
+                    </div>
+<!--  ==============================     DESK TOP BLOGs =======================-->
+                    <div class="row d-md-flex d-none">
+                        <div class="col-md-6 position-relative">
+                            <a href="">
+                                <img class="w-100 h-100 lazyload" data-src="img/web/home/blog.png" title="Lợi ích dịch vụ xe tiện chuyến " alt="Lợi ích dịch vụ xe tiện chuyến ">
+                                <div class="des des1 position-absolute"></div>
+                                <div class="text_blog position-absolute">
+                                    <h5 class="text-white">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</h5>
+                                    <p class="text-white">20-02-2020</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6 position-relative px-0 d-flex flex-column">
+                            <div class="col-md-12  position-relative px-0">
+                                <a href="">
+                                    <img class="w-100 lazyload" data-src="img/web/home/blog2.png" title="Lợi ích dịch vụ xe tiện chuyến " alt="Lợi ích dịch vụ xe tiện chuyến ">
+                                    <div class="des position-absolute">
+                                    </div>
+                                    <div class="text_blog sub-blog1 position-absolute">
+                                        <h5 class="text-white">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</h5>
+                                        <p class="text-white">20-02-2020</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="d-flex pt-3">
+                                <div class="col-md-6 position-relative pl-0 pr-1">
+                                    <a href="">
+                                        <img class="w-100 lazyload" data-src="img/web/home/blog3.png" alt="Lợi ích dịch vụ xe tiện chuyến " title="Lợi ích dịch vụ xe tiện chuyến ">
+                                        <div class="des des3 position-absolute"></div>
+                                        <div class="text_blog sub-blog2 position-absolute">
+                                            <h5 class="text-white">Lorem Ipsum has been's standard dummy text ever since the 1500s.</h5>
+                                            <p class="text-white">20-02-2020</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-md-6 position-relative pr-0 pl-1">
+                                    <a href="">
+                                        <img class="w-100 lazyload" data-src="img/web/home/blog4.png" alt="Lợi ích dịch vụ xe tiện chuyến " title="Lợi ích dịch vụ xe tiện chuyến ">
+                                        <div class="des des4 position-absolute"></div>
+                                        <div class="text_blog sub-blog3 position-absolute">
+                                            <h5 class="text-white">Lorem Ipsum has been standard dummy text ever since the 1500s.</h5>
+                                            <p class="text-white">20-02-2020</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+<!--  ==============================     MOBILE BLOGs =======================-->
+                    <div id="carouselBlogs" class="carousel slide m-auto d-md-none d-block" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselBlogs" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselBlogs" data-slide-to="1"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active ">
+                                <div class="col-md-4 item_feedback position-relative px-0">
+                                    <a href="">
+                                        <img class="w-100 lazyload h-100" data-src="img/web/home/blog4.png" title="Lợi ích dịch vụ xe tiện chuyến " alt="Lợi ích dịch vụ xe tiện chuyến ">
+                                        <div class="des des1 position-absolute"></div>
+                                        <div class="text_blog position-absolute">
+                                            <h5 class="text-white">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</h5>
+                                            <p class="text-white">20-02-2020</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-md-4 item_feedback position-relative px-0">
+                                    <a href="">
+                                        <img class="w-100 lazyload h-100" data-src="img/web/home/blog4.png" title="Lợi ích dịch vụ xe tiện chuyến " alt="Lợi ích dịch vụ xe tiện chuyến ">
+                                        <div class="des des1 position-absolute"></div>
+                                        <div class="text_blog position-absolute">
+                                            <h5 class="text-white">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</h5>
+                                            <p class="text-white">20-02-2020</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="more_blog float-right">
+                            <a href="">XEM TIẾP <i class="pl-2 fas fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="clearfix"></div>
+    <section>
+        <div class="container-fluid px-0">
+            <div class="partner_regis position-relative"">
+                <div class="content">
+                    <div class="form">
+                        <form class="m-auto">
+                            <div class="title">
+                                <h4 class="text-center">TRỞ THÀNH ĐỐI TÁC CỦA CHÚNG TÔI</h4>
+                            </div>
+                            <div class="form-group">
+                                <label>Họ tên</label>
+                                <input type="email" class="form-control" >
+                            </div>
+                            <div class="form-group">
+                                <label>Số điện thoại</label>
+                                <input type="password" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label>Email</label>
+                                <input type="password" class="form-control">
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100 btn_partner_regis">ĐĂNG KÍ NGAY</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="clearfix"></div>
 </main>
 
-
-<footer class="position-fixed">
-    <div class="container-fluid px-0">
-        <div class="content_ft">
-            <ul class="p-0 mb-0">
-                <li>
-                    <a href="list.html"> <i class="fas fa-car active"></i></a> 
-                </li>
-                <li>
-                  <a href="community.html"> <i class="fa fa-group "></i></a> 
-                </li>
-                <li>
-                    <a href="upload.html"> <i class="fas fa-upload "></i></a> 
-                  </li>
-                <li>
-                   <a href="history.html"> <i class="fa fa-history"></i></a>
-                </li>
-                <li>
-                   <a href="setting.html"><i class="fas fa-user-cog"></i></a> 
-                </li>
-            </ul>
+<footer>
+    <section>
+        <div class="footer">
+            <div class="ft_hana m-auto">
+                <div class="row title_ft align-items-center">
+                    <div class="col-lg-4 col-6">
+                        <div class="logo_ft">
+                            <a href="">
+                                <img class="w-100 lazyload" data-src="img/web/home/logo.png" alt="Đặt xe trực tuyến hana" title="Đặt xe trực tuyến hana">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 title d-lg-block d-none">Chính sách</div>
+                    <div class="col-lg-3 title  d-lg-block d-none pl-lg-4">Thông tin thêm</div>
+                    <div class="col-lg-3 title d-lg-block d-none ">Đối tác</div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 flex-column">
+                        <div class="contact_ft">
+                            <div class="address item_contact_ft">
+                                <i class="fab fa-facebook-f"></i>
+                                <span><a href="#" class="text-white">Fanpage</a></span>
+                            </div>
+                            <div class="email item_contact_ft">
+                                <i class="far fa-envelope"></i>
+                                <span>Email : contacthana@gmail.com</span>
+                            </div>
+                            <div class="phone item_contact_ft">
+                               <i class="fas fa-mobile-alt pl-1"></i>
+                                <span>Hotline : 0326913212</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 ">
+                        <div class="linking">
+                            <ul class="pl-0" >
+                                <li><a href="">Về chúng tôi</a></li>
+                                <li><a href="">Chính sách và quy định</a></li>
+                                <li><a href="">Bảo mật thông tin</a></li>
+                                <li><a href="">Quy chế hoạt động</a></li>
+                                <li><a href="">Giải quyết tranh chấp</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 pl-lg-4">
+                        <div class="linking">
+                            <ul class="pl-0" >
+                                <li><a href="">Hướng dẫn chung</a></li>
+                                <li><a href="">Hướng dẫn đặt xe</a></li>
+                                <li><a href="">Hướng dẫn dành cho chủ xe</a></li>
+                                <li><a href="">Hình thức thanh toán</a></li>
+                                <li><a href="">FAQ</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="linking">
+                            <ul class="pl-0" >
+                                <li><a href="">Đăng kí đối tác Hana</a></li>
+                                <li><a href="">Đăng ký đặt vé</a></li>
+                                <li><a href="">Đăng ký nhận bản tin Hana</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
+    </section>
 </footer>
 
 <script src="plugins/js/jquery-3.4.1.slim.min.js"></script>
@@ -167,9 +923,6 @@
 <script src="plugins/bootstrap/bootstrap.min.js"></script>
 <script src="plugins/jquery-ui-1.12.1/jquery-ui.js"></script>
 <script src="js/index.js"></script>
-<script>
-
-</script>
 <script src="/plugins/lazyload/lazyload.js"></script>
 </body>
 
