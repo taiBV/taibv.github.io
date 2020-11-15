@@ -14,6 +14,9 @@ $( function() {
 function showDetail(){
     $(".info_detail_search").slideToggle( "slow" );
 };
+function submitChangePostionLive(){
+    
+}
 $('.carousel').carousel({
     interval: false,
 });
