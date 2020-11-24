@@ -1,3 +1,48 @@
+.custom-control-input:checked~.custom-control-label::before {
+    border-color: lightgrey !important;
+    background-color: #E5C300 !important;
+}
+.custom-radio .custom-control-label::before{
+    border-radius: unset !important;
+}
+.modal-book-trip{
+    width: 60% !important;
+    max-width: unset !important;
+}
+.modal-book-trip .warning{
+    font-size: 12px;
+    margin-top: -15px;
+}
+.modal-book-trip .btn-accept{
+    background: #E5C300;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 320px;
+    color: #fff;
+}
+.modal-book-trip .btn-accept:hover{
+    background: #000;
+    color: #fff;
+}
+.modal-book-trip .btn-voucher{
+    background-color: #71A9FB ;
+    color: white;
+}
+.modal-book-trip .modal-footer{
+    border-top: none !important;
+}
+.modal-book-trip label{
+    margin-bottom: .2rem !important;
+}
+.modal-book-trip .modal-body{
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+}
+/*  */
 .detail_hana{
     font-family:"Roboto";
 }

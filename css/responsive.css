@@ -178,6 +178,9 @@
 }
 
 @media (max-width: 768px) {
+    .modal-book-trip{
+        width: 90% !important;
+    }
     .banner .box-banner{
         width: 100%;
     }
